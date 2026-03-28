@@ -1,0 +1,649 @@
+# SHL Kvalserien Game 4: Leksands IF vs HV 71
+# Svenska Spel Oddset — Full Betting Data, scraped 2026-03-22
+# Source: Kambi Offering API (228 bet offers across 55 markets)
+# Match ID: 1026967945 | Faceoff: 2026-03-22 18:30 CET
+
+================================================================================
+SERIES CONTEXT — KVALSERIEN (RELEGATION PLAYOFF)
+================================================================================
+
+Series status: HV71 leads
+  Game 1 (HV71 home): HV71 2-1 Leksand (HV71 win)
+  Game 2 (Leksand home): Result unknown
+  Game 3 (HV71 home): HV71 3-2 Leksand (HV71 win)
+  Game 4 (TODAY — Leksand home): Leksand IF vs HV 71
+
+Key: Leksand is the HOME team today. HV71 leads the series.
+Stakes: Loser faces relegation from SHL. Every game is desperate.
+
+MiroFish Track Record:
+- Game 3: Correctly predicted HV71 win + Under 5.5 goals
+- Yesterday (Luleå-Örebro): Simulated 3-2 Luleå, won 2/3 bets
+
+================================================================================
+1X2 — MATCH WINNER
+================================================================================
+
+### Regular Time (60 min)
+  Leksand (1):  2.08
+  Draw (X):     4.20
+  HV71 (2):     2.88
+
+### Including Overtime
+  Leksand:      1.64
+  HV71:         2.20
+
+### Double Chance — Regular Time
+  1X (Leksand or Draw): 1.44
+  X2 (Draw or HV71):    1.76
+  12 (Leksand or HV71): 1.25
+
+### Draw No Bet — Regular Time
+  Leksand: 1.65
+  HV71:    2.23
+
+NOTE: Leksand is HOME favorite (2.08 vs 2.88). Market gives Leksand ~48%
+implied probability in regulation, HV71 ~35%, Draw ~24%. Including OT,
+Leksand ~61% vs HV71 ~45% (slight overround).
+
+================================================================================
+TOTAL GOALS (OVER/UNDER)
+================================================================================
+
+### Including Overtime
+  O/U 2.5:  Over 1.05 / Under 10.00
+  O/U 3.5:  Over 1.30 / Under 3.55
+  O/U 4.5:  Over 1.52 / Under 2.55
+  O/U 5.5:  Over 2.38 / Under 1.58
+  O/U 6.5:  Over 3.15 / Under 1.36
+  O/U 7.5:  Over 6.00 / Under 1.13
+
+### Regular Time (60 min)
+  O/U 2.5:  Over 1.11 / Under 6.40
+  O/U 3.5:  Over 1.30 / Under 3.55
+  O/U 4.5:  Over 1.72 / Under 2.12
+  O/U 5.5:  Over 2.38 / Under 1.58
+  O/U 6.5:  Over 3.75 / Under 1.27
+  O/U 7.5:  Over 6.00 / Under 1.13
+
+KEY LINE: Under 4.5 regular time at 2.12 — market expects ~4 goals.
+Under 5.5 (incl OT) at 1.58 is heavily favored. Consistent with Kvalserien pattern.
+
+================================================================================
+HANDICAP / PUCK LINE
+================================================================================
+
+### Including Overtime
+  Leksand -0.5: 1.66  |  HV71 +0.5: 2.23
+  Leksand -1.5: 2.80  |  HV71 +1.5: 1.44
+  Leksand -2.5: 4.20  |  HV71 +2.5: 1.23
+  Leksand +0.5: 1.66  |  HV71 -0.5: 2.23  (same as ML since OT decides)
+  Leksand +1.5: 1.22  |  HV71 -1.5: 4.30
+
+### Regular Time
+  Leksand -0.5: 2.10  |  HV71 +0.5: 1.74
+  Leksand -1.5: 2.80  |  HV71 +1.5: 1.44
+  Leksand -2.5: 4.20  |  HV71 +2.5: 1.23
+  Leksand +0.5: 1.43  |  HV71 -0.5: 2.85
+  Leksand +1.5: 1.22  |  HV71 -1.5: 4.30
+
+### 3-Way Handicap — Including Overtime
+  HC -3: 1(9.00) X(7.50) 2(1.24)
+  HC -2: 1(4.35) X(7.50) 2(1.46)
+  HC -1: 1(2.85) X(3.85) 2(2.25)
+  HC +1: 1(1.68) X(4.30) 2(4.40)
+  HC +2: 1(1.23) X(9.00) 2(7.50)
+
+### 3-Way Handicap — Regular Time
+  HC -3: 1(9.00) X(7.50) 2(1.24)
+  HC -2: 1(4.35) X(7.50) 2(1.46)
+  HC -1: 1(2.85) X(7.50) 2(1.77)
+  HC +1: 1(1.44) X(7.50) 2(4.40)
+  HC +2: 1(1.23) X(9.00) 2(7.50)
+
+================================================================================
+CORRECT SCORE — REGULAR TIME (KEY MARKET)
+================================================================================
+
+Sorted by odds (most likely first):
+
+  2-2:  9.00   *** MOST LIKELY ***
+  1-1:  11.50
+  3-3:  12.50
+  4-1:  13.00  (Leksand)
+  1-2:  14.00  (HV71)
+  3-1:  14.00  (Leksand)
+  2-1:  15.00  (Leksand)
+  4-2:  15.00  (Leksand)
+  2-3:  15.00  (HV71)
+  3-2:  15.00  (Leksand)
+  1-3:  16.00  (HV71)
+  3-0:  17.00  (Leksand)
+  5-2:  17.00  (Leksand)
+  1-4:  19.00  (HV71)
+  2-4:  19.00  (HV71)
+  5-1:  21.00  (Leksand)
+  4-3:  23.00  (Leksand)
+  0-2:  25.00  (HV71)
+  2-0:  25.00  (Leksand)
+  4-4:  25.00
+  3-4:  25.00  (HV71)
+  0-3:  26.00  (HV71)
+  4-0:  26.00  (Leksand)
+  2-5:  26.00  (HV71)
+  1-0:  34.00  (Leksand)
+  0-1:  29.00  (HV71)
+  5-3:  29.00  (Leksand)
+  6-2:  34.00  (Leksand)
+  1-5:  34.00  (HV71)
+  5-4:  56.00
+  6-3:  36.00  (Leksand)
+  3-5:  36.00  (HV71)
+  0-0:  41.00
+  6-1:  41.00  (Leksand)
+  0-4:  41.00  (HV71)
+  5-0:  46.00  (Leksand)
+  2-6:  56.00  (HV71)
+  3-6:  56.00  (HV71)
+  4-5:  67.00  (HV71)
+
+================================================================================
+CORRECT SCORE — INCLUDING OVERTIME (FINAL RESULT)
+================================================================================
+
+Sorted by odds (most likely first):
+
+  2-2:  — (goes to OT, no final draw)
+  3-2:  9.00   *** MOST LIKELY ***
+  2-3:  10.00
+  2-1:  10.00
+  1-2:  10.50
+  4-3:  13.00
+  3-4:  14.00
+  4-1:  13.00
+  3-1:  14.00
+  4-2:  15.00
+  1-3:  16.00
+  5-2:  17.00
+  3-0:  17.00
+  2-4:  19.00
+  1-4:  19.00
+  5-1:  21.00
+  0-1:  23.00
+  1-0:  25.00
+  2-0:  25.00
+  0-2:  25.00
+  5-3:  29.00
+  5-4:  26.00
+  4-5:  34.00
+  2-5:  26.00
+  0-3:  26.00
+  4-0:  26.00
+  1-5:  34.00
+  6-2:  34.00
+  6-3:  36.00
+  3-5:  36.00
+  Santeri Hatakka: 36.00
+  6-1:  41.00
+  0-4:  41.00
+  5-0:  46.00
+  2-6:  56.00
+  3-6:  56.00
+
+================================================================================
+CORRECT SCORE — FROM USER SCREENSHOT (REFERENCE)
+================================================================================
+
+Most likely scores per screenshot:
+  2-2:  9.00   (Regular time — goes to OT)
+  1-1:  11.50  (Regular time — goes to OT)
+  2-1:  15.00  (Leksand win)
+  3-1:  14.00  (Leksand win)
+  1-2:  14.00  (HV71 win)
+  4-1:  13.00  (Leksand win)
+
+================================================================================
+PERIOD BETTING
+================================================================================
+
+### Period 1 — 1X2
+  Leksand (1): 2.55
+  Draw (X):    2.63
+  HV71 (2):    3.30
+
+### Period 2 — 1X2
+  Leksand (1): 2.60
+  Draw (X):    2.70
+  HV71 (2):    3.15
+
+### Period 3 — 1X2
+  Leksand (1): 2.43
+  Draw (X):    3.00
+  HV71 (2):    3.00
+
+### Double Chance — Periods
+  P1: 1X 1.33 | X2 1.50 | 12 1.48
+  P2: 1X 1.35 | X2 1.50 | 12 1.46
+  P3: 1X 1.38 | X2 1.55 | 12 1.38
+
+### Draw No Bet — Periods
+  P1: Leksand 1.66 / HV71 2.12
+  P2: Leksand 1.68 / HV71 2.07
+  P3: Leksand 1.68 / HV71 2.07
+
+================================================================================
+PERIOD CORRECT SCORES
+================================================================================
+
+### Period 1 — Correct Score
+  0-0: 3.25 | 1-0: 3.75 | 0-1: 4.30 | 1-1: 4.90
+  2-0: 7.00 | 0-2: 9.00 | 2-1: 9.50 | 1-2: 11.00
+  3-0: 18.00 | 2-2: 23.00 | 3-1: 26.00
+
+### Period 2 — Correct Score
+  0-0: 3.60 | 1-0: 3.85 | 0-1: 4.35 | 1-1: 4.60
+  2-0: 7.00 | 2-1: 9.00 | 0-2: 9.00 | 1-2: 9.50
+  3-0: 17.00 | 2-2: 18.00 | 3-1: 23.00 | 3-2: 51.00
+
+### Period 3 — Correct Score
+  0-0: 4.00 | 1-0: 4.20 | 0-1: 4.50 | 1-1: 5.00
+  2-0: 6.75 | 2-1: 8.00 | 0-2: 8.50 | 1-2: 9.50
+  3-0: 14.00 | 3-1: 17.00 | 2-2: 18.00 | 0-3: 21.00
+  1-3: 23.00 | 3-2: 34.00 | 2-3: 41.00
+
+================================================================================
+PERIOD TOTALS
+================================================================================
+
+### Period 1 — Total Goals
+  O/U 0.5:  Over 1.22 / Under 3.95
+  O/U 1.5:  Over 2.02 / Under 1.72
+  O/U 2.5:  Over 4.20 / Under 1.20
+
+### Period 2 — Total Goals
+  O/U 0.5:  Over 1.18 / Under 4.35
+  O/U 1.5:  Over 1.88 / Under 1.84
+  O/U 2.5:  Over 3.70 / Under 1.24
+
+### Period 3 — Total Goals
+  O/U 0.5:  Over 1.15 / Under 4.90
+  O/U 1.5:  Over 1.71 / Under 2.04
+  O/U 2.5:  Over 3.10 / Under 1.33
+
+================================================================================
+TEAM TOTALS
+================================================================================
+
+### Leksand Total Goals — Including Overtime
+  O/U 1.5:  Over 1.26 / Under 3.70
+  O/U 2.5:  Over 1.71 / Under 2.08
+  O/U 3.5:  Over 2.70 / Under 1.44
+  O/U 4.5:  Over 4.90 / Under 1.16
+
+### Leksand Total Goals — Regular Time
+  O/U 1.5:  Over 1.30 / Under 3.35
+  O/U 2.5:  Over 1.85 / Under 1.91
+  O/U 3.5:  Over 2.95 / Under 1.38
+  O/U 4.5:  Over 5.20 / Under 1.15
+
+### HV71 Total Goals — Including Overtime
+  O/U 1.5:  Over 1.40 / Under 2.88
+  O/U 2.5:  Over 2.15 / Under 1.67
+  O/U 3.5:  Over 3.80 / Under 1.25
+
+### HV71 Total Goals — Regular Time
+  O/U 1.5:  Over 1.45 / Under 2.70
+  O/U 2.5:  Over 2.33 / Under 1.58
+  O/U 3.5:  Over 4.20 / Under 1.21
+
+### Leksand Goals Per Period
+  P1 O/U 0.5: Over 1.65 / Under 2.12
+  P2 O/U 0.5: Over 1.58 / Under 2.25
+  P3 O/U 0.5: Over 1.53 / Under 2.38
+  P3 O/U 1.5: Over 3.25 / Under 1.30
+
+### HV71 Goals Per Period
+  P1 O/U 0.5: Over 1.86 / Under 1.86
+  P2 O/U 0.5: Over 1.74 / Under 2.00
+  P3 O/U 0.5: Over 1.67 / Under 2.10
+
+================================================================================
+BOTH TEAMS TO SCORE
+================================================================================
+
+### Including Overtime
+  Yes: 1.15  |  No: 4.60
+
+### Regular Time
+  Yes: 1.15  |  No: 4.60
+
+### Both Teams 2+ Goals — Including Overtime
+  Yes: 1.88  |  No: 1.80
+
+### Both Teams 2+ Goals — Regular Time
+  Yes: 1.88  |  No: 1.80
+
+### BTTS Per Period
+  P1: Yes 3.05 / No 1.30
+  P2: Yes 2.75 / No 1.38
+  P3: Yes 2.60 / No 1.42
+
+================================================================================
+SHOTS ON TARGET
+================================================================================
+
+### Total Shots on Goal — Including Overtime
+  O/U 49.5:  Over 1.78 / Under 1.90
+  O/U 50.5:  Over 1.91 / Under 1.78
+  O/U 51.5:  Over 2.07 / Under 1.66
+  O/U 52.5:  Over 2.23 / Under 1.56
+  O/U 53.5:  Over 2.43 / Under 1.48
+  O/U 54.5:  Over 2.65 / Under 1.41
+
+### Leksand Shots on Goal — Including Overtime
+  O/U 25.5:  Over 1.75 / Under 1.93
+  O/U 26.5:  Over 1.95 / Under 1.75
+  O/U 27.5:  Over 2.16 / Under 1.60
+  O/U 28.5:  Over 2.43 / Under 1.48
+
+### HV71 Shots on Goal — Including Overtime
+  O/U 23.5:  Over 1.74 / Under 1.95
+  O/U 24.5:  Over 1.95 / Under 1.75
+  O/U 25.5:  Over 2.20 / Under 1.58
+  O/U 26.5:  Over 2.50 / Under 1.46
+
+================================================================================
+FIRST GOAL SCORER
+================================================================================
+
+  Lukas Vejdemo: 8.00
+  Jonathan Ang: 10.00
+  Michael Lindqvist: 10.50
+  Hugo Pettersson: 10.50
+  Max Veronneau: 12.00
+  Nolan Stevens: 12.50
+  Riley Woods: 12.50
+  Peter Cehlárik: 13.00
+  Tinus Luc Koblar: 14.00
+  Gabriel Fortier: 15.00
+  Joona Luoto: 16.00
+  Oskar Lang: 16.00
+  Justin Kloos: 16.00
+  Mattias Tedenby: 17.00
+  Andro Kaderli: 20.00
+  Oskar Stål Lyrenäs: 20.00
+  Hugo Fransson: 20.00
+  Olle Strandell: 20.00
+  Kalle Östman: 20.00
+  Marcus Karlberg: 21.00
+  Axel Rindell: 21.00
+  Nikola Pasic: 23.00
+  Andreas Borgman: 23.00
+  Martin Johnsen: 25.00
+  Lukas Rousek: 25.00
+  Matt Caito: 26.00
+  Anton Johansson: 29.00
+  Wiktor Nilsson: 31.00
+  Victor Laz: 34.00
+  Alexander Lundqvist: 35.00
+  Santeri Hatakka: 36.00
+  Olle Alsing: 36.00
+  Fred Nilsson: 41.00
+  Stefan Milosevic: 41.00
+  Niklas Hansson: 41.00
+  William Nilsson Ignberg: 41.00
+  Rocky Langvardt: 46.00
+
+================================================================================
+ANYTIME GOAL SCORER (INCLUDING OT)
+================================================================================
+
+  Lukas Vejdemo: 2.75
+  Jonathan Ang: 3.25
+  Michael Lindqvist: 3.40
+  Hugo Pettersson: 3.65
+  Riley Woods: 3.85
+  Max Veronneau: 3.90
+  Nolan Stevens: 4.00
+  Peter Cehlárik: 4.30
+  Tinus Luc Koblar: 4.60
+  Gabriel Fortier: 4.75
+  Justin Kloos: 5.00
+  Oskar Lang: 5.00
+  Joona Luoto: 5.25
+  Mattias Tedenby: 5.50
+  Hugo Fransson: 5.80
+  Olle Strandell: 6.00
+  Kalle Östman: 6.00
+  Andro Kaderli: 6.10
+  Oskar Stål Lyrenäs: 6.25
+  Axel Rindell: 6.40
+  Nikola Pasic: 6.50
+  Marcus Karlberg: 6.50
+  Lukas Rousek: 7.00
+  Andreas Borgman: 7.00
+  Martin Johnsen: 7.00
+  Matt Caito: 7.50
+  Anton Johansson: 8.00
+  Victor Laz: 9.00
+  Wiktor Nilsson: 9.50
+  Alexander Lundqvist: 10.00
+  Santeri Hatakka: 10.50
+  Olle Alsing: 10.50
+  William Nilsson Ignberg: 10.50
+  Fred Nilsson: 12.00
+  Stefan Milosevic: 12.50
+  Niklas Hansson: 13.00
+  Rocky Langvardt: 13.00
+
+================================================================================
+PLAYER TO SCORE 2+ GOALS (INCLUDING OT)
+================================================================================
+
+  Lukas Vejdemo: 10.00
+  Jonathan Ang: 14.00
+  Michael Lindqvist: 15.00
+  Hugo Pettersson: 18.00
+  Riley Woods: 19.00
+  Max Veronneau: 20.00
+  Nolan Stevens: 21.00
+  Tinus Luc Koblar: 26.00
+  Peter Cehlárik: 26.00
+  Gabriel Fortier: 31.00
+  Justin Kloos: 34.00
+  Oskar Lang: 36.00
+  Joona Luoto: 36.00
+  Mattias Tedenby: 41.00
+  Hugo Fransson: 46.00
+  Olle Strandell: 51.00
+  Oskar Stål Lyrenäs: 56.00
+  Kalle Östman: 56.00
+  Nikola Pasic: 61.00
+  Andro Kaderli: 61.00
+  Axel Rindell: 67.00
+  Andreas Borgman: 76.00
+  Marcus Karlberg: 76.00
+  Lukas Rousek: 81.00
+  Martin Johnsen: 91.00
+  Anton Johansson: 101.00
+  Matt Caito: 101.00
+  Victor Laz: 131.00
+  Wiktor Nilsson: 141.00
+
+================================================================================
+PLAYER TO SCORE 3+ GOALS (HAT TRICK)
+================================================================================
+
+  Lukas Vejdemo: 51.00
+  Jonathan Ang: 91.00
+  Michael Lindqvist: 91.00
+  Riley Woods: 141.00
+  Hugo Pettersson: 151.00
+  Max Veronneau: 181.00
+
+================================================================================
+PLAYER 1+ POINTS (GOAL OR ASSIST) — INCLUDING OT
+================================================================================
+
+  Michael Lindqvist: 1.58
+  Lukas Vejdemo: 1.72
+  Max Veronneau: 1.81
+  Jonathan Ang: 1.88
+  Axel Rindell: 2.07
+  Riley Woods: 2.12
+  Anton Johansson: 2.16
+  Lukas Rousek: 2.35
+  Peter Cehlárik: 2.38
+  Justin Kloos: 2.48
+  Nolan Stevens: 2.55
+  Tinus Luc Koblar: 2.55
+  Gabriel Fortier: 2.55
+  Hugo Pettersson: 2.70
+  Hugo Fransson: 2.70
+  Andro Kaderli: 3.00
+  Oskar Lang: 3.15
+  Olle Strandell: 3.15
+  Andreas Borgman: 3.25
+  Oskar Stål Lyrenäs: 3.35
+  Niklas Hansson: 3.45
+  Alexander Lundqvist: 3.70
+  Joona Luoto: 3.70
+  Mattias Tedenby: 3.85
+  Matt Caito: 3.85
+
+================================================================================
+PLAYER 2+ POINTS — INCLUDING OT
+================================================================================
+
+  Michael Lindqvist: 3.60
+  Lukas Vejdemo: 4.25
+  Max Veronneau: 4.70
+  Jonathan Ang: 5.00
+  Axel Rindell: 6.00
+  Riley Woods: 6.25
+  Anton Johansson: 6.50
+  Lukas Rousek: 7.50
+  Peter Cehlárik: 7.50
+  Justin Kloos: 8.00
+  Nolan Stevens: 8.50
+  Tinus Luc Koblar: 8.50
+  Gabriel Fortier: 8.50
+  Hugo Fransson: 9.50
+  Hugo Pettersson: 9.50
+
+================================================================================
+PLAYER 1+ ASSISTS — INCLUDING OT
+================================================================================
+
+  Michael Lindqvist: 1.97
+  Max Veronneau: 2.33
+  Axel Rindell: 2.38
+  Anton Johansson: 2.38
+  Lukas Vejdemo: 2.65
+  Lukas Rousek: 2.70
+  Jonathan Ang: 2.75
+  Riley Woods: 3.10
+  Justin Kloos: 3.40
+  Hugo Fransson: 3.55
+  Peter Cehlárik: 3.55
+  Gabriel Fortier: 3.60
+  Tinus Luc Koblar: 3.80
+
+================================================================================
+EXPERT PERSPECTIVES — CORRECT SCORE FOCUS
+================================================================================
+
+### The Correct Score Specialist
+"The market screams 2-2 at regular time (9.00) as most likely, meaning OT
+is expected. This is classic Kvalserien: tight, nervous, defensive hockey
+with occasional bursts. The 3-2 final including OT (9.00) is the single
+most likely final result. In a series where HV71 leads, Leksand has
+desperation-fueled home energy but also the pressure of elimination.
+Games 1 and 3 both ended 2-1 and 3-2 — we are in a 2-3 goal-per-team
+range. The bookmaker agrees: both teams scoring 2+ goals is essentially
+a coin flip (1.88 yes vs 1.80 no)."
+
+### The Series Momentum Analyst
+"HV71 leads the series after winning games 1 and 3. But look at the odds:
+Leksand is HOME FAVORITE at 2.08. Why? Because home ice matters enormously
+in Kvalserien. The crowd, the desperation, the last-stand mentality.
+Leksand won't go quietly. The market implies Leksand wins regulation ~48%
+of the time. I expect a tight game where Leksand scores first, HV71
+equalizes, and it grinds to overtime. The 2-2 regulation / 3-2 OT pattern
+is the most probable scenario."
+
+### The Value Hunter
+"Correct score is where the real value lives. The top 5 most likely
+regular-time scores (2-2, 1-1, 3-3, 4-1, 1-2) span from 9.00 to 14.00.
+That is massive return for the most-likely outcomes. The key insight:
+draws (2-2 at 9.00, 1-1 at 11.50, 3-3 at 12.50) account for a combined
+~24% implied probability. The market is telling us this game probably goes
+to overtime. If you believe that, the Leksand 3-2 including OT at 9.00 is
+the single best bet — it combines the most likely regulation draw (2-2)
+with Leksand home advantage in overtime."
+
+### The Defensive Metrics Expert
+"Period-by-period data reveals the pattern. Period 1 most likely: 0-0
+(3.25) or 1-0 (3.75). Period 2: 0-0 (3.60) or 1-0 (3.85). Period 3
+opens up slightly: 1-0 (4.20) or 0-0 (4.00) still favorite but 2-1
+(8.00) more likely than in earlier periods. The total model: expect
+1-1 or 1-0 after P1, 2-1 or 1-1 after P2, and 3-2 or 2-2 at end of
+regulation. Under 1.5 per period is consistently favored."
+
+### The Combo Bet Architect
+"For correct score combos, you need to think in layers:
+Layer 1 — Score direction: Leksand scores 2-3 goals, HV71 scores 1-2.
+Layer 2 — Overtime probability: ~24% implied from draw scores.
+Layer 3 — Player involvement: Lukas Vejdemo (2.75 anytime) and Michael
+Lindqvist (3.40 anytime) are the most likely scorers.
+Best combo structure: Leksand 3-2 incl OT (9.00) + Vejdemo anytime
+scorer (2.75) = combined odds ~24.75. Or: 2-2 regulation (9.00) +
+Under 5.5 goals (1.58) for a safer play at ~14.22."
+
+### The Contrarian
+"Everyone expects a tight game. What if Leksand, facing elimination at
+home, comes out with full desperation and blows the game open? The 4-1
+Leksand at 13.00 is interesting value. HV71 may sit back protecting
+their series lead. If Leksand scores early, HV71 collapses psychologically.
+The 4-1 and 3-1 lines (13.00-14.00) offer serious upside for a team
+that MUST win tonight."
+
+================================================================================
+SIMULATION OBJECTIVE
+================================================================================
+
+PRIMARY GOAL: Find the most likely correct score for Game 4.
+
+SECONDARY GOAL: Construct the best combo bet combining:
+  1. Correct score (regular time or including OT)
+  2. Over/under total goals
+  3. Player scorer prop (anytime or first goal)
+
+CONSTRAINTS:
+  - Series context: HV71 leads, Leksand is desperate at home
+  - Pattern: Games 1 & 3 were low-scoring (2-1, 3-2) — all HV71 wins
+  - Home advantage: Leksand is market favorite (2.08)
+  - MiroFish correctly called Under 5.5 in Game 3
+
+KEY DATA POINTS FOR SIMULATION:
+  - Most likely regulation score: 2-2 (9.00)
+  - Most likely final score incl OT: 3-2 (9.00) or 2-1 (10.00)
+  - Both teams 2+ goals: 1.88 (53% implied)
+  - Under 4.5 regulation: 2.12 (47% implied)
+  - Under 5.5 incl OT: 1.58 (63% implied)
+  - Leksand Over 2.5 goals (reg): 1.85 (54% implied)
+  - HV71 Over 1.5 goals (reg): 1.45 (69% implied)
+  - Top scorers: Vejdemo (2.75), Ang (3.25), Lindqvist (3.40)
+
+RECOMMENDED SIMULATION SCENARIOS:
+  A. Conservative: 2-2 regulation -> 3-2 Leksand OT win
+  B. Leksand blowout: 3-1 or 4-1 Leksand in regulation
+  C. HV71 clinch: 1-2 or 2-3 HV71 wins the series tonight
+  D. Defensive grind: 1-1 regulation -> 2-1 OT
+
+================================================================================
+DISCLAIMER
+================================================================================
+This data is for entertainment and simulation purposes. Sports betting
+involves risk. Past performance does not guarantee future outcomes.
+Bet responsibly.

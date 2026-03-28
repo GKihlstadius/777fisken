@@ -1,0 +1,600 @@
+# MiroFish Seed Document: Luleå HF vs Örebro HK
+# SHL 2025/26 — Match Day 2026-03-21
+# Source: Svenska Spel / Kambi API (scraped 2026-03-21)
+# Event ID: 1026965552
+# Match closes: 2026-03-21 14:15 UTC (15:15 CET)
+# Total bet offers available: 228
+
+================================================================================
+## SECTION 1: CORE MATCH ODDS
+================================================================================
+
+### 1X2 — Regular Time (60 min)
+  Luleå HF (1):   1.76
+  Draw (X):        4.20
+  Örebro HK (2):   3.90
+
+### Moneyline — Including Overtime
+  Luleå HF:  1.41
+  Örebro HK: 2.80
+
+### Double Chance — Regular Time
+  1X (Luleå or Draw):   1.28
+  X2 (Draw or Örebro):  2.06
+  12 (Luleå or Örebro): 1.25
+
+### Draw No Bet — Regular Time
+  Luleå HF:  1.40
+  Örebro HK: 2.95
+
+### Implied Probabilities (1X2 Regular Time)
+  Luleå:  56.8%  (1/1.76)
+  Draw:   23.8%  (1/4.20)
+  Örebro: 25.6%  (1/3.90)
+  Overround: 106.2%
+
+### Implied Probabilities (Moneyline incl. OT)
+  Luleå:  70.9%  (1/1.41)
+  Örebro: 35.7%  (1/2.80)
+  Overround: 106.6%
+
+### Odds Movement (vs 2026-03-19 scrape)
+  Luleå 1X2:  1.70 -> 1.76 (drifting, less favored)
+  Draw:       4.75 -> 4.20 (shortening, draw more likely)
+  Örebro:     4.30 -> 3.90 (shortening, Örebro supported)
+  NOTE: Market moving TOWARDS Örebro / Draw since March 19
+
+================================================================================
+## SECTION 2: TOTAL GOALS (OVER/UNDER)
+================================================================================
+
+### Total Goals — Regular Time
+  Over 2.5:  1.11  |  Under 2.5:  6.50
+  Over 3.5:  1.29  |  Under 3.5:  3.60
+  Over 4.5:  1.68  |  Under 4.5:  2.17
+  Over 5.5:  2.35  |  Under 5.5:  1.60
+  Over 6.5:  3.65  |  Under 6.5:  1.28
+  Over 7.5:  6.00  |  Under 7.5:  1.13
+
+### Total Goals — Including Overtime
+  Over 2.5:  1.04  |  Under 2.5: 10.50
+  Over 3.5:  1.29  |  Under 3.5:  3.60
+  Over 4.5:  1.49  |  Under 4.5:  2.63
+  Over 5.5:  2.35  |  Under 5.5:  1.60
+  Over 6.5:  3.10  |  Under 6.5:  1.37
+  Over 7.5:  6.00  |  Under 7.5:  1.13
+
+### Total Goals — Period 1
+  Over 0.5:  1.22  |  Under 0.5:  3.95
+  Over 1.5:  2.02  |  Under 1.5:  1.73
+  Over 2.5:  4.20  |  Under 2.5:  1.20
+
+### Total Goals — Period 2
+  Over 0.5:  1.17  |  Under 0.5:  4.50
+  Over 1.5:  1.84  |  Under 1.5:  1.88
+  Over 2.5:  3.60  |  Under 2.5:  1.25
+
+### Total Goals — Period 3
+  Over 0.5:  1.14  |  Under 0.5:  5.00
+  Over 1.5:  1.71  |  Under 1.5:  2.04
+  Over 2.5:  3.15  |  Under 2.5:  1.32
+
+### Implied Expected Total Goals
+  Main line O/U 4.5 RT at 1.68/2.17 => ~5.0 expected goals regular time
+  Main line O/U 4.5 OT at 1.49/2.63 => ~5.3 expected goals incl. overtime
+
+================================================================================
+## SECTION 3: TEAM TOTALS
+================================================================================
+
+### Luleå HF Goals — Including Overtime
+  Over 1.5:  1.18  |  Under 1.5:  4.60
+  Over 2.5:  1.53  |  Under 2.5:  2.45
+  Over 3.5:  2.30  |  Under 3.5:  1.58
+  Over 4.5:  4.10  |  Under 4.5:  1.22
+
+### Luleå HF Goals — Regular Time
+  Over 1.5:  1.23  |  Under 1.5:  4.00
+  Over 2.5:  1.65  |  Under 2.5:  2.18
+  Over 3.5:  2.48  |  Under 3.5:  1.50
+  Over 4.5:  4.30  |  Under 4.5:  1.20
+
+### Luleå HF Goals — Per Period
+  P1 Over 0.5: 1.56  |  Under 0.5: 2.30
+  P2 Over 0.5: 1.49  |  Under 0.5: 2.45
+  P2 Over 1.5: 3.35  |  Under 1.5: 1.29
+  P3 Over 0.5: 1.44  |  Under 0.5: 2.63
+  P3 Over 1.5: 2.90  |  Under 1.5: 1.37
+
+### Örebro HK Goals — Including Overtime
+  Over 1.5:  1.53  |  Under 1.5:  2.45
+  Over 2.5:  2.55  |  Under 2.5:  1.49
+  Over 3.5:  4.90  |  Under 3.5:  1.17
+
+### Örebro HK Goals — Regular Time
+  Over 1.5:  1.58  |  Under 1.5:  2.32
+  Over 2.5:  2.75  |  Under 2.5:  1.43
+  Over 3.5:  5.30  |  Under 3.5:  1.14
+
+### Örebro HK Goals — Per Period
+  P1 Over 0.5: 2.00  |  Under 0.5: 1.73
+  P2 Over 0.5: 1.84  |  Under 0.5: 1.88
+  P3 Over 0.5: 1.80  |  Under 0.5: 1.93
+
+### Implied Expected Team Goals
+  Luleå:  ~3.0-3.2 goals (O2.5 at 1.53, U2.5 at 2.45)
+  Örebro: ~2.0-2.2 goals (O1.5 at 1.53, U2.5 at 1.49)
+
+================================================================================
+## SECTION 4: HANDICAP / PUCK LINE
+================================================================================
+
+### Puck Line — Regular Time
+  Luleå -0.5:  1.78  |  Örebro +0.5:  2.05
+  Luleå -1.5:  2.28  |  Örebro +1.5:  1.63
+  Luleå -2.5:  3.35  |  Örebro +2.5:  1.33
+  Luleå -3.5:  6.50  |  Örebro +3.5:  1.11
+  Luleå +0.5:  1.27  |  Örebro -0.5:  3.80
+  Luleå +1.5:  1.12  |  Örebro -1.5:  6.40
+
+### Puck Line — Including Overtime
+  Luleå -0.5:  1.43  |  Örebro +0.5:  2.85
+  Luleå -1.5:  2.28  |  Örebro +1.5:  1.63
+  Luleå -2.5:  3.35  |  Örebro +2.5:  1.33
+  Luleå -3.5:  6.50  |  Örebro +3.5:  1.11
+  Luleå +0.5:  1.43  |  Örebro -0.5:  2.85
+  Luleå +1.5:  1.12  |  Örebro -1.5:  6.40
+
+### 3-Way Handicap — Regular Time
+  HC -1: Luleå 2.32 / Draw 7.00 / Örebro 2.08
+  HC -2: Luleå 3.40 / Draw 6.50 / Örebro 1.65
+  HC -3: Luleå 7.00 / Draw 6.10 / Örebro 1.35
+  HC -4: Luleå 15.00 / Draw 11.50 / Örebro 1.12
+  HC +1: Luleå 1.28 / Draw 8.50 / Örebro 6.75
+  HC +2: Luleå 1.13 / Draw 13.00 / Örebro 12.00
+
+### 3-Way Handicap — Including Overtime
+  HC -1: Luleå 2.32 / Draw 3.60 / Örebro 2.90
+  HC -2: Luleå 3.40 / Draw 6.50 / Örebro 1.65
+  HC -3: Luleå 7.00 / Draw 6.10 / Örebro 1.35
+  HC -4: Luleå 15.00 / Draw 11.50 / Örebro 1.12
+  HC +1: Luleå 1.44 / Draw 4.75 / Örebro 6.75
+  HC +2: Luleå 1.13 / Draw 13.00 / Örebro 12.00
+
+================================================================================
+## SECTION 5: PERIOD BETTING
+================================================================================
+
+### Period 1X2
+  P1: Luleå 2.30 / Draw 2.60 / Örebro 3.90
+  P2: Luleå 2.28 / Draw 2.75 / Örebro 3.70
+  P3: Luleå 2.15 / Draw 3.00 / Örebro 3.65
+
+### Double Chance — Per Period
+  P1: 1X 1.25 / X2 1.61 / 12 1.48
+  P2: 1X 1.27 / X2 1.62 / 12 1.45
+  P3: 1X 1.28 / X2 1.70 / 12 1.38
+
+### Draw No Bet — Per Period
+  P1: Luleå 1.48 / Örebro 2.50
+  P2: Luleå 1.50 / Örebro 2.43
+  P3: Luleå 1.48 / Örebro 2.50
+
+### Both Teams To Score — Per Period
+  P1: Yes 3.10 / No 1.30
+  P2: Yes 2.75 / No 1.38
+  P3: Yes 2.63 / No 1.42
+
+### Both Teams To Score — Full Match
+  Regular Time: Yes 1.15 / No 4.60
+  Including OT: Yes 1.15 / No 4.60
+  Both 2+ goals RT: Yes 1.90 / No 1.78
+  Both 2+ goals OT: Yes 1.90 / No 1.78
+
+### Correct Score — Period 1
+  0-0: 3.25  |  1-0: 3.45  |  0-1: 4.70
+  1-1: 4.90  |  2-0: 6.10  |  0-2: 11.00
+  2-1: 9.00  |  1-2: 12.50 |  3-0: 15.00
+  3-1: 23.00 |  2-2: 23.00
+
+### Correct Score — Period 2
+  0-0: 3.65  |  1-0: 3.65  |  0-1: 4.80
+  1-1: 4.60  |  2-0: 6.40  |  0-2: 11.00
+  2-1: 8.00  |  1-2: 11.00 |  3-0: 15.00
+  3-1: 19.00 |  2-2: 18.00 |  3-2: 46.00
+
+### Correct Score — Period 3
+  0-0: 4.10  |  1-0: 3.85  |  0-1: 5.00
+  1-1: 4.90  |  2-0: 5.75  |  0-2: 10.50
+  2-1: 7.50  |  1-2: 10.50 |  3-0: 12.50
+  3-1: 16.00 |  2-2: 17.00 |  3-2: 35.00
+
+================================================================================
+## SECTION 6: CORRECT SCORE — FULL MATCH
+================================================================================
+
+### Correct Score — Regular Time (Home-Away)
+  0-0: 36.00 |  1-0: 30.00 |  0-1: 31.00
+  1-1: 11.50 |  2-0: 23.00 |  0-2: 34.00
+  2-1: 15.00 |  1-2: 15.00 |  0-3: 36.00
+  2-2: 9.00  |  3-0: 15.00 |  0-4: 67.00
+  3-1: 12.50 |  1-3: 21.00 |  3-2: 15.00
+  2-3: 16.00 |  4-0: 21.00 |  1-4: 26.00
+  3-3: 12.50 |  4-1: 11.00 |  4-2: 14.00
+  4-3: 21.00 |  3-4: 29.00 |  5-0: 34.00
+  5-1: 17.00 |  5-2: 15.00 |  5-3: 26.00
+  2-4: 25.00 |  2-5: 36.00 |  1-5: 56.00
+  4-4: 25.00 |  5-4: 56.00 |  4-5: 71.00
+  6-1: 34.00 |  6-2: 29.00 |  6-3: 35.00
+  7-1: 67.00 |  7-2: 61.00 |  3-5: 46.00
+
+### Correct Score — Including Overtime (Home-Away)
+  2-1: 9.50  |  3-2: 8.50  |  2-3: 10.50
+  1-2: 11.00 |  4-1: 11.00 |  3-1: 12.50
+  4-2: 14.00 |  5-2: 15.00 |  3-0: 15.00
+  3-4: 16.00 |  5-1: 17.00 |  4-3: 12.00
+  1-3: 21.00 |  4-0: 21.00 |  1-0: 23.00
+  2-0: 23.00 |  2-4: 25.00 |  5-3: 26.00
+  0-1: 26.00 |  1-4: 26.00 |  5-4: 26.00
+  6-2: 29.00 |  6-1: 34.00 |  0-2: 34.00
+  5-0: 34.00 |  6-3: 35.00 |  0-3: 36.00
+  2-5: 36.00 |  4-5: 34.00 |  3-5: 46.00
+  1-5: 56.00 |  7-2: 61.00 |  0-4: 67.00
+  7-1: 67.00
+
+### Most Likely Scores (by shortest odds, incl. OT)
+  1. 3-2 Luleå: 8.50  (implied 11.8%)
+  2. 2-1 Luleå: 9.50  (implied 10.5%)
+  3. 2-3 Örebro: 10.50 (implied 9.5%)
+  4. 1-2 Örebro: 11.00 (implied 9.1%)
+  5. 4-1 Luleå: 11.00  (implied 9.1%)
+  6. 4-3 Luleå: 12.00  (implied 8.3%)
+  7. 3-1 Luleå: 12.50  (implied 8.0%)
+
+================================================================================
+## SECTION 7: SHOTS ON TARGET
+================================================================================
+
+### Total Shots on Goal — Including Overtime
+  Over 46.5: 1.68  |  Under 46.5: 2.02
+  Over 47.5: 1.82  |  Under 47.5: 1.86
+  Over 48.5: 1.97  |  Under 48.5: 1.73
+  Over 49.5: 2.12  |  Under 49.5: 1.62
+  Over 50.5: 2.32  |  Under 50.5: 1.53
+  Over 51.5: 2.55  |  Under 51.5: 1.44
+
+### Luleå HF Shots on Goal — Including Overtime
+  Over 24.5: 1.71  |  Under 24.5: 1.98
+  Over 25.5: 1.90  |  Under 25.5: 1.78
+  Over 26.5: 2.10  |  Under 26.5: 1.63
+  Over 27.5: 2.35  |  Under 27.5: 1.50
+
+### Örebro HK Shots on Goal — Including Overtime
+  Over 21.5: 1.68  |  Under 21.5: 2.04
+  Over 22.5: 1.88  |  Under 22.5: 1.80
+  Over 23.5: 2.12  |  Under 23.5: 1.62
+  Over 24.5: 2.40  |  Under 24.5: 1.49
+
+### Implied Expected Shots
+  Total: ~48-49 shots (line centered around 48.5)
+  Luleå: ~26 shots (line centered around 25.5-26.5)
+  Örebro: ~22-23 shots (line centered around 22.5-23.5)
+
+================================================================================
+## SECTION 8: PLAYER PROPS — GOALSCORERS
+================================================================================
+
+### Anytime Goalscorer — Including Overtime (odds)
+--- LULEÅ HF ---
+  Brian O'Neill:          2.80  (implied 35.7%)
+  Anton Levtchi:          3.40  (implied 29.4%)
+  Linus Omark:            3.45  (implied 29.0%)
+  Markus Nurmi:           3.60  (implied 27.8%)
+  Mathias Bromé:          3.70  (implied 27.0%)
+  David Quenneville:      3.90  (implied 25.6%)
+  Oskari Laaksonen:       3.95  (implied 25.3%)
+  Patrik Karlkvist:       4.00  (implied 25.0%)
+  Filip Eriksson:         4.00  (implied 25.0%)
+  Pontus Andreasson:      4.10  (implied 24.4%)
+  Kalle Kossila:          4.50  (implied 22.2%)
+  Isac Hedqvist:          5.20  (implied 19.2%)
+  Noah Steen:             5.40  (implied 18.5%)
+  Erik Gustafsson:        6.40  (implied 15.6%)
+  Otto Leskinen:          6.10  (implied 16.4%)
+  Teemu Turunen:          6.10  (implied 16.4%)
+  Luke Martin:            7.50  (implied 13.3%)
+  Heikki Liedes:          8.00  (implied 12.5%)
+  Jesper Sellgren:       10.00  (implied 10.0%)
+  Filip Berglund:        11.00  (implied 9.1%)
+  Gustav Backström:      13.00  (implied 7.7%)
+  Peetro Seppälä:        15.00  (implied 6.7%)
+  Pontus Själin:         16.00  (implied 6.3%)
+  Oscar Engsund:         18.00  (implied 5.6%)
+  Svante Sjödin:         18.00  (implied 5.6%)
+
+--- ÖREBRO HK ---
+  Patrik Puistola:        3.90  (implied 25.6%)
+  Jesse Ylönen:           5.60  (implied 17.9%)
+  Egor Polin:             5.75  (implied 17.4%)
+  Brendan Shinnimin:      5.50  (implied 18.2%)
+  Kalle Miketinac:        6.00  (implied 16.7%)
+  Ben Tardif:             6.50  (implied 15.4%)
+  Eetu Koivistoinen:      7.00  (implied 14.3%)
+  Christopher Mastomäki:  8.00  (implied 12.5%)
+  Glenn Gustafsson:      11.00  (implied 9.1%)
+  Milton Oscarson:        9.00  (implied 11.1%)
+  Linus Arnesson:         9.50  (implied 10.5%)
+
+### 2+ Goals — Including Overtime (selected)
+  Brian O'Neill:    10.50
+  Anton Levtchi:    15.00
+  Linus Omark:      16.00
+  Markus Nurmi:     17.00
+  Mathias Bromé:    18.00
+  David Quenneville: 20.00
+  Oskari Laaksonen: 21.00
+  Patrik Puistola:  21.00
+  Filip Eriksson:   21.00
+
+### 3+ Goals — Including Overtime
+  Brian O'Neill:    56.00
+  Anton Levtchi:   111.00
+  Linus Omark:     111.00
+  Markus Nurmi:    111.00
+  Mathias Bromé:   111.00
+
+================================================================================
+## SECTION 9: PLAYER PROPS — POINTS & ASSISTS
+================================================================================
+
+### Player 1+ Points — Including Overtime
+--- TOP PERFORMERS ---
+  Brian O'Neill:        1.55  (implied 64.5%)  *** HEAVY FAVORITE ***
+  Oskari Laaksonen:     1.72  (implied 58.1%)
+  Patrik Karlkvist:     1.79  (implied 55.9%)
+  Anton Levtchi:        1.80  (implied 55.6%)
+  Linus Omark:          1.82  (implied 54.9%)
+  David Quenneville:    1.90  (implied 52.6%)
+  Pontus Andreasson:    1.92  (implied 52.1%)
+  Kalle Kossila:        2.05  (implied 48.8%)
+  Mathias Bromé:        2.10  (implied 47.6%)
+  Markus Nurmi:         2.14  (implied 46.7%)
+  Patrik Puistola:      2.25  (implied 44.4%)
+  Erik Gustafsson:      2.43  (implied 41.2%)
+  Otto Leskinen:        2.55  (implied 39.2%)
+  Filip Eriksson:       2.55  (implied 39.2%)
+  Isac Hedqvist:        2.75  (implied 36.4%)
+  Teemu Turunen:        2.85  (implied 35.1%)
+  Brendan Shinnimin:    2.90  (implied 34.5%)
+  Jesse Ylönen:         2.95  (implied 33.9%)
+  Jesper Sellgren:      3.00  (implied 33.3%)
+  Luke Martin:          3.15  (implied 31.7%)
+  Kalle Miketinac:      3.35  (implied 29.9%)
+  Noah Steen:           3.55  (implied 28.2%)
+
+### Player 2+ Points — Including Overtime (selected)
+  Brian O'Neill:        3.55  (implied 28.2%)
+  Oskari Laaksonen:     4.35  (implied 23.0%)
+  Patrik Karlkvist:     4.70  (implied 21.3%)
+  Anton Levtchi:        4.75  (implied 21.1%)
+  Linus Omark:          4.90  (implied 20.4%)
+  David Quenneville:    5.20  (implied 19.2%)
+  Pontus Andreasson:    5.40  (implied 18.5%)
+
+### Player 3+ Points
+  Brian O'Neill:        9.00  (implied 11.1%)
+
+### Player 1+ Assists — Including Overtime (selected)
+  Brian O'Neill:        2.12  (implied 47.2%)
+  Oskari Laaksonen:     2.14  (implied 46.7%)
+  Patrik Karlkvist:     2.28  (implied 43.9%)
+  Anton Levtchi:        2.50  (implied 40.0%)
+  David Quenneville:    2.50  (implied 40.0%)
+  Pontus Andreasson:    2.55  (implied 39.2%)
+  Linus Omark:          2.55  (implied 39.2%)
+  Kalle Kossila:        2.65  (implied 37.7%)
+  Erik Gustafsson:      2.95  (implied 33.9%)
+  Mathias Bromé:        3.15  (implied 31.7%)
+  Otto Leskinen:        3.20  (implied 31.3%)
+  Markus Nurmi:         3.30  (implied 30.3%)
+  Jesper Sellgren:      3.40  (implied 29.4%)
+  Patrik Puistola:      3.45  (implied 29.0%)
+  Teemu Turunen:        3.70  (implied 27.0%)
+
+================================================================================
+## SECTION 10: RECENT FORM & CONTEXT
+================================================================================
+
+### Luleå HF — Season Context
+- Defending SHL champions (2024/25 title)
+- Home venue: Coop Norrbotten Arena, Luleå
+- Playing in SHL Playoff/Kvalserien phase
+- Odds from March 19 had them at 1.70 (heavier favorite than now)
+- Odds drifting to 1.76 suggests some market uncertainty or money on Örebro
+- Team expected to score ~3.0-3.2 goals (strong offense)
+- ~26 shots on goal expected (dominant shot share)
+- Key offensive players: Brian O'Neill (captain, 2.80 to score), Linus Omark,
+  Anton Levtchi, Markus Nurmi, Oskari Laaksonen
+
+### Örebro HK — Season Context
+- Traditionally mid-table SHL team
+- Away match in Luleå (significant travel, far north)
+- Market has been shortening their odds (4.30 -> 3.90) = gaining respect
+- Expected ~2.0-2.2 goals (decent away output)
+- ~22-23 shots on goal expected
+- Key offensive players: Patrik Puistola (3.90 to score), Brendan Shinnimin,
+  Jesse Ylönen, Egor Polin
+
+### Key Market Signals
+1. BTTS at 1.15 (87% implied) = market VERY confident both teams score
+2. Over 4.5 RT at 1.68 = market expects 5+ goals more likely than not
+3. Luleå moneyline incl OT: 1.41 = 71% implied win probability
+4. Most likely correct score: 3-2 Luleå (8.50) followed by 2-1 Luleå (9.50)
+5. Brian O'Neill massive favorite for points (1.55 for 1+ point)
+6. Period 3 expected most goals (0-0 at 4.10 = least likely scoreless period)
+
+### Head-to-Head Context (from market structure)
+- Luleå clear favorites at home but not overwhelming
+- Market structure suggests competitive game (3-2, 2-1 most likely)
+- 3-Way Handicap -1 RT: Luleå 2.32 / Örebro 2.08 — market thinks
+  if Luleå wins, margin may be just 1 goal, and Örebro HC+1 is favored
+- Draw at RT (4.20) relatively accessible = game could go to OT
+
+================================================================================
+## SECTION 11: EXPERT PERSPECTIVES
+================================================================================
+
+### PERSPECTIVE 1: VALUE BETTOR
+"The odds movement is the story here. Luleå drifted from 1.70 to 1.76 while
+Örebro shortened from 4.30 to 3.90. The draw compressed from 4.75 to 4.20.
+This is sharp money on Örebro/Draw. The puck line tells the real story:
+Örebro +1.5 at 1.63 regular time is where the market is most confident.
+VALUE PICKS:
+- Örebro +1.5 RT at 1.63 (strong value if Örebro keeps it close)
+- Draw Regular Time at 4.20 (market moving this way)
+- BTTS 2+ goals each at 1.90 (coin flip pricing, market expects goals)
+- Over 4.5 RT at 1.68 (good price for a high-scoring game)
+For combo potential: Örebro +1.5 RT + Over 4.5 RT + BTTS Yes
+would give decent combined odds with correlated selections."
+
+### PERSPECTIVE 2: STATS ANALYST
+"The numbers paint a clear picture. Expected total ~5.0 goals RT, with Luleå
+contributing ~3.0 and Örebro ~2.0. Shot differential: Luleå ~26 vs Örebro ~23
+(not as lopsided as the 1X2 suggests). The period breakdown is revealing:
+P1 is tightest (Luleå 2.30 fav), P3 Luleå strongest (2.15 fav). Örebro
+actually competitive in P1 and P2. BTTS per period: P3 most likely (2.63),
+P2 second (2.75). This suggests Örebro scores early/mid, Luleå pulls away
+in P3.
+KEY STATS:
+- Correct score 2-2 RT at 9.00 is interesting (11.1% implied)
+- 3-3 RT at 12.50 also notable
+- Brian O'Neill 1+ points at 1.55 is the safest player prop on the board
+- Laaksonen 1+ points at 1.72 very strong too
+Combo suggestion: O'Neill 1+ point + Laaksonen 1+ point + Over 4.5 goals"
+
+### PERSPECTIVE 3: HOCKEY SCOUT
+"Luleå's firepower is obvious — O'Neill, Omark, Levtchi, Nurmi form an elite
+top-6. The fact that O'Neill is 2.80 to score anytime (35.7% implied) shows
+how central he is. But look at Örebro: Patrik Puistola at 3.90 is their
+clear #1 threat, and the gap to their #2 (Shinnimin at 5.50) is large.
+This means Örebro is a one-line team offensively.
+
+Luleå's depth shows: they have 9 players shorter than 5.00 to score anytime.
+Örebro has just 1 (Puistola). This depth advantage manifests in P3 when
+Luleå can roll 4 lines against a tiring Örebro defense.
+
+SCOUT PICKS:
+- Luleå to win P3 at 2.15 (strongest period for them)
+- Puistola anytime scorer at 3.90 (he IS Örebro's offense)
+- O'Neill 2+ points at 3.55 (he's involved in everything)
+- Period 1 Draw at 2.60 (Örebro hangs tough early)"
+
+### PERSPECTIVE 4: CONTRARIAN
+"Everyone will be on Luleå. The moneyline at 1.41 is trash value. Here's
+where the market might be wrong:
+1. Örebro Draw No Bet at 2.95 — if Örebro's odds are shortening, the
+   smart money sees something. Away teams that get respected more as
+   match day approaches often perform.
+2. Under 4.5 goals RT at 2.17 — everyone expects a shootout with these
+   player prop lines, but playoff/kvalserien hockey can be tight and
+   tactical. If Örebro plays a disciplined road game, under is live.
+3. Örebro to win RT at 3.90 — genuine upset potential. At nearly 4:1,
+   you only need this to hit 25% of the time to profit.
+4. Period 2 0-0 at 3.65 — coaches adjust after P1, middle periods are
+   historically lowest-scoring.
+
+CONTRARIAN COMBO: Örebro DNB 2.95 + Under 5.5 RT + BTTS Yes (1.15)
+If Örebro wins 2-1 or 3-2, this combo smashes."
+
+### PERSPECTIVE 5: RISK MANAGER
+"Risk assessment for combo betting:
+SAFEST LEGS (for combo building):
+- BTTS Yes RT at 1.15 (87% implied, near-certain)
+- Over 2.5 goals RT at 1.11 (90% implied)
+- Over 0.5 goals P1 at 1.22 (82% implied)
+- Over 0.5 goals P2 at 1.17 (85% implied)
+- Luleå Over 1.5 goals RT at 1.23 (81% implied)
+
+MEDIUM RISK / MEDIUM REWARD:
+- Over 4.5 goals RT at 1.68 (60% implied)
+- O'Neill 1+ point at 1.55 (65% implied)
+- Örebro +1.5 RT at 1.63 (61% implied)
+- Laaksonen 1+ point at 1.72 (58% implied)
+
+HIGHER RISK / GOOD REWARD:
+- Luleå -1.5 RT at 2.28 (44% implied)
+- Luleå Over 2.5 goals at 1.65 (61% but team total)
+- O'Neill anytime scorer at 2.80 (36% implied)
+- Over 5.5 goals RT at 2.35 (43% implied)
+
+CORRELATION NOTES:
+- O'Neill goal + Over 4.5 are positively correlated (if O'Neill scores, total goes up)
+- Luleå -1.5 + Over 5.5 are positively correlated (blowout = many goals)
+- BTTS + Over 4.5 are positively correlated
+- Örebro +1.5 + Under 5.5 are somewhat correlated (close low-scoring game)
+AVOID combining contradictory legs (e.g., Örebro +1.5 + Luleå Over 3.5 goals)"
+
+================================================================================
+## SECTION 12: SIMULATION OBJECTIVE
+================================================================================
+
+### Primary Goal: Find the BEST COMBO BET
+
+### Combo Strategy A: "High-Floor Goals Combo" (3-4 legs, moderate odds)
+  Leg 1: BTTS Yes RT — 1.15
+  Leg 2: Over 4.5 goals RT — 1.68
+  Leg 3: Brian O'Neill 1+ point — 1.55
+  Combined odds: ~3.00
+  Assessment: Three strongly correlated, high-probability events.
+
+### Combo Strategy B: "Luleå Dominance" (3 legs, higher odds)
+  Leg 1: Luleå to win incl. OT — 1.41
+  Leg 2: Luleå Over 2.5 goals RT — 1.65
+  Leg 3: O'Neill anytime scorer — 2.80
+  Combined odds: ~6.50
+  Assessment: If Luleå rolls, all three hit. Correlated upside.
+
+### Combo Strategy C: "Contrarian Value" (3 legs, high odds)
+  Leg 1: Örebro +1.5 RT — 1.63
+  Leg 2: BTTS 2+ goals each — 1.90
+  Leg 3: Puistola anytime scorer — 3.90
+  Combined odds: ~12.10
+  Assessment: Örebro competitive + high-scoring + their star delivers.
+
+### Combo Strategy D: "Period Play" (4 legs)
+  Leg 1: P1 Draw — 2.60
+  Leg 2: P3 Luleå win — 2.15
+  Leg 3: Over 4.5 goals RT — 1.68
+  Leg 4: O'Neill 1+ point — 1.55
+  Combined odds: ~14.55
+  Assessment: Örebro hangs tough P1, Luleå pulls away P3, goals flow.
+
+### Combo Strategy E: "Safe Builder" (5 legs, low odds each)
+  Leg 1: Over 2.5 goals RT — 1.11
+  Leg 2: BTTS Yes — 1.15
+  Leg 3: Over 0.5 goals P2 — 1.17
+  Leg 4: Luleå Over 1.5 goals RT — 1.23
+  Leg 5: O'Neill 1+ point — 1.55
+  Combined odds: ~2.75
+  Assessment: Each leg >80% implied. Very safe but low return.
+
+### RECOMMENDED FOCUS for MiroFish Simulation:
+Explore Strategies A, B, and D most deeply. Strategy A offers the best
+risk/reward ratio. Strategy B has the highest EV if Luleå's form holds.
+Strategy D is the creative play with highest upside among reasonable combos.
+
+Key question for simulation: Is the market correctly pricing Örebro's
+competitiveness? The odds drift toward Örebro suggests YES — meaning
+strategies that include Örebro +1.5 or Draw may have hidden value.
+
+================================================================================
+## RAW DATA NOTES
+================================================================================
+- All odds in European decimal format (e.g., 2.50 = +150 American)
+- Kambi odds format: divide by 1000 (e.g., 2800 = 2.80)
+- Line format: divide by 1000 (e.g., 4500 = 4.5 goals)
+- "Including Overtime" = result after OT/shootout if needed
+- "Regular Time" = result after 60 minutes only
+- Cash out: ENABLED on most markets
+- BET_BUILDER tag: available for same-game combo on most offers
+- Data freshness: Last odds change ~2026-03-20 23:19 UTC

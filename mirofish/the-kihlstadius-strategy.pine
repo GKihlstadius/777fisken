@@ -1,0 +1,412 @@
+// This Pine Script™ is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © thekihlstadius
+
+//@version=6
+strategy("The Kihlstadius Strategy", overlay=true, default_qty_type=strategy.percent_of_equity, default_qty_value=10, initial_capital=10000, commission_type=strategy.commission.percent, commission_value=0.1, slippage=2, pyramiding=0)
+
+// ══════════════════════════════════════════════════════════════
+// INPUTS
+// ══════════════════════════════════════════════════════════════
+
+preset = input.string("Alpha", title="Preset", options=["Essential", "Proficient", "Alpha"], group="⚙️ Preset")
+autoTF = input.bool(true, title="Auto-adapt to Timeframe", group="⚙️ Preset")
+
+// --- Strategy Filters ---
+useLarssonFilter    = input.bool(true,  title="Require Larsson Line Confirmation", group="🧪 Strategy Filters")
+useWaveTrendFilter  = input.bool(true,  title="Require WaveTrend Confirmation (MCB)", group="🧪 Strategy Filters")
+useSupertrendFilter = input.bool(false, title="Require Supertrend Confirmation", group="🧪 Strategy Filters")
+useRsiFilter        = input.bool(false, title="Require RSI Filter", group="🧪 Strategy Filters")
+useMomentumFilter   = input.bool(false, title="Require Momentum Filter", group="🧪 Strategy Filters")
+useVolumeFilter     = input.bool(false, title="Require Volume Confirmation", group="🧪 Strategy Filters")
+tradeDirection      = input.string("Long Only", title="Trade Direction", options=["Long Only", "Short Only", "Both"], group="🧪 Strategy Filters")
+useTrailingStop     = input.bool(true,  title="Use Trailing Stop", group="🧪 Strategy Filters")
+larssonFlipWindowInput = input.int(5, title="Larsson Flip Lookback (bars)", minval=1, maxval=20, group="🧪 Strategy Filters")
+
+// --- Trend Filter ---
+trendLen1Input = input.int(50,  title="Fast Trend EMA",   minval=5,  group="📈 Trend Filter")
+trendLen2Input = input.int(100, title="Mid Trend EMA",    minval=10, group="📈 Trend Filter")
+trendLen3Input = input.int(200, title="Slow Trend EMA",   minval=20, group="📈 Trend Filter")
+
+// --- Entry Signals ---
+signalCooldown = input.int(10, title="Signal Cooldown (bars)", minval=0, maxval=50, group="🎯 Entry Signals")
+
+// --- Risk Management ---
+atrLen        = input.int(14,   title="ATR Length", minval=1, group="🛡️ Risk Management")
+slMultiplier  = input.float(2.0, title="Stop Loss (x ATR)", minval=0.5, step=0.1, group="🛡️ Risk Management")
+tpMultiplier  = input.float(4.0, title="Take Profit (x ATR)", minval=1.0, step=0.1, group="🛡️ Risk Management")
+trailMultiplier = input.float(2.0, title="Trailing Stop (x ATR)", minval=0.5, step=0.1, group="🛡️ Risk Management")
+
+// --- Larsson Line ---
+larssonFastInput = input.int(50,  title="Larsson Fast HMA", minval=5, group="📊 Larsson Line")
+larssonSlowInput = input.int(120, title="Larsson Slow HMA", minval=10, group="📊 Larsson Line")
+
+// --- WaveTrend (MarketCipher B core) ---
+wtChannelLen  = input.int(9,  title="WT Channel Length", minval=1, group="🌊 WaveTrend (MCB)")
+wtAvgLen      = input.int(12, title="WT Average Length", minval=1, group="🌊 WaveTrend (MCB)")
+wtMALen       = input.int(3,  title="WT MA Length", minval=1, group="🌊 WaveTrend (MCB)")
+wtOverbought  = input.int(53, title="WT Overbought", group="🌊 WaveTrend (MCB)")
+wtOversold    = input.int(-53, title="WT Oversold", group="🌊 WaveTrend (MCB)")
+
+// --- Display ---
+showTrendBg    = input.bool(false, title="Trend Background", group="🎨 Display")
+showMAs        = input.bool(true,  title="Moving Averages", group="🎨 Display")
+showSLTP       = input.bool(true,  title="Signal Labels (SL/TP)", group="🎨 Display")
+showBuySell    = input.bool(true,  title="Buy/Sell Signals", group="🎨 Display")
+showExits      = input.bool(false, title="Exit Signals", group="🎨 Display")
+showGDCross    = input.bool(true,  title="Golden/Death Cross", group="🎨 Display")
+showSupertrend = input.bool(false, title="Supertrend Line", group="🎨 Display")
+showLarsson    = input.bool(true,  title="Larsson Line", group="🎨 Display")
+showDashboard  = input.bool(false, title="Info Dashboard", group="🎨 Display")
+
+// ══════════════════════════════════════════════════════════════
+// TIMEFRAME ADAPTATION
+// ══════════════════════════════════════════════════════════════
+
+tfMinutes = timeframe.in_seconds() / 60
+isScalping = tfMinutes <= 15
+isIntraday = tfMinutes > 15 and tfMinutes <= 240
+
+trendLen1 = autoTF ? (isScalping ? 20  : isIntraday ? 35  : trendLen1Input) : trendLen1Input
+trendLen2 = autoTF ? (isScalping ? 50  : isIntraday ? 75  : trendLen2Input) : trendLen2Input
+trendLen3 = autoTF ? (isScalping ? 100 : isIntraday ? 150 : trendLen3Input) : trendLen3Input
+
+larssonFastLen = autoTF ? (isScalping ? 20 : isIntraday ? 35 : larssonFastInput) : larssonFastInput
+larssonSlowLen = autoTF ? (isScalping ? 50 : isIntraday ? 80 : larssonSlowInput) : larssonSlowInput
+
+rsiLenEff = autoTF ? (isScalping ? 9 : isIntraday ? 12 : 14) : 14
+momLenEff = autoTF ? (isScalping ? 5 : isIntraday ? 8  : 10) : 10
+
+// Adaptive WaveTrend for scalping
+wtChannelEff = autoTF ? (isScalping ? 7 : isIntraday ? 9 : wtChannelLen) : wtChannelLen
+wtAvgEff     = autoTF ? (isScalping ? 9 : isIntraday ? 12 : wtAvgLen) : wtAvgLen
+
+// Adaptive flip lookback — wider on higher timeframes (synced with indicator)
+isDaily  = tfMinutes >= 1440
+isWeekly = tfMinutes >= 10080
+larssonFlipWindow = autoTF ? (isWeekly ? 20 : isDaily ? 15 : isIntraday ? 5 : 3) : larssonFlipWindowInput
+
+// ══════════════════════════════════════════════════════════════
+// PRESET VALUES
+// ══════════════════════════════════════════════════════════════
+
+float baseRsiOB = 70.0
+float baseRsiOS = 30.0
+float baseMomThreshold = 0.001
+float baseVolMult = 1.2
+float presetSTFactor = 2.0
+
+if preset == "Essential"
+    baseRsiOB := 75
+    baseRsiOS := 25
+    baseMomThreshold := 0.002
+    baseVolMult := 1.5
+    presetSTFactor := 2.5
+else if preset == "Proficient"
+    baseRsiOB := 70
+    baseRsiOS := 30
+    baseMomThreshold := 0.001
+    baseVolMult := 1.2
+    presetSTFactor := 2.0
+else // Alpha
+    baseRsiOB := 65
+    baseRsiOS := 35
+    baseMomThreshold := 0.0005
+    baseVolMult := 1.0
+    presetSTFactor := 1.5
+
+// ══════════════════════════════════════════════════════════════
+// ADAPTIVE VOLATILITY ENGINE
+// ══════════════════════════════════════════════════════════════
+
+atr = ta.atr(atrLen)
+atrSlow = ta.sma(atr, 100)
+volRatio = atrSlow > 0 ? atr / atrSlow : 1.0
+
+isHighVol = volRatio > 1.3
+isLowVol  = volRatio < 0.7
+
+volClamp = math.max(0.8, math.min(1.5, volRatio))
+
+// ══════════════════════════════════════════════════════════════
+// ADAPTIVE RSI THRESHOLDS
+// ═════════════════════════��════════════════════════════════════
+
+volAdjust = isHighVol ? 5.0 : isLowVol ? -5.0 : 0.0
+dynRsiOB = baseRsiOB + volAdjust
+dynRsiOS = baseRsiOS - volAdjust
+dynMomThreshold = baseMomThreshold * math.max(0.5, volRatio)
+dynVolMult = baseVolMult * (isLowVol ? 1.3 : isHighVol ? 0.9 : 1.0)
+
+// ══════════════════════════════════════════════════════════════
+// CORE CALCULATIONS — all EMA/SMA computed unconditionally
+// ══════════════════════════════════════════════════════════════
+
+ema50  = ta.ema(close, trendLen1)
+ema100 = ta.ema(close, trendLen2)
+sma200 = ta.sma(close, trendLen3)
+
+trendUp   = close > ema50 and ema50 > ema100 and ema100 > sma200
+trendDown = close < ema50 and ema50 < ema100 and ema100 < sma200
+
+// ══════════════════════════════════════════════════════════════
+// LARSSON LINE — HMA crossover with gold/blue flip
+// ══════════════════════════════════════════════════════════════
+
+f_hma(src, len) =>
+    halfLen = math.max(math.round(len / 2), 1)
+    sqrtLen = math.max(math.round(math.sqrt(len)), 1)
+    ta.wma(2 * ta.wma(src, halfLen) - ta.wma(src, len), sqrtLen)
+
+hmaFast = f_hma(close, larssonFastLen)
+hmaSlow = f_hma(close, larssonSlowLen)
+
+larssonDiff = hmaFast - hmaSlow
+larssonThreshold = atr * 0.05
+larssonGold = larssonDiff > larssonThreshold
+larssonBlue = larssonDiff < -larssonThreshold
+
+// Flip detection (key signal — not just state, but the actual event)
+goldFlip = larssonGold and not larssonGold[1]
+blueFlip = larssonBlue and not larssonBlue[1]
+
+// Recent flip within lookback window
+recentGoldFlip = false
+recentBlueFlip = false
+for i = 0 to larssonFlipWindow - 1
+    if goldFlip[i]
+        recentGoldFlip := true
+    if blueFlip[i]
+        recentBlueFlip := true
+
+// ══════════════════════════════════════════════════════════════
+// WAVETREND OSCILLATOR (MarketCipher B core)
+// ══════════════════════════════════════════════════════════════
+
+hlc3_val = hlc3
+esa = ta.ema(hlc3_val, wtChannelEff)
+d_val = ta.ema(math.abs(hlc3_val - esa), wtChannelEff)
+ci = (hlc3_val - esa) / (0.015 * nz(d_val, 1))
+wt1 = ta.ema(ci, wtAvgEff)
+wt2 = ta.sma(wt1, wtMALen)
+
+// WaveTrend signals
+wtCrossUp   = ta.crossover(wt1, wt2)
+wtCrossDown = ta.crossunder(wt1, wt2)
+
+// WT zone: below zero for buys (momentum turning), above zero for sells
+wtBuyZone  = wt1 < 0
+wtSellZone = wt1 > 0
+
+// Recent WT cross (within lookback window for alignment with Larsson)
+recentWtBuy = false
+recentWtSell = false
+for i = 0 to larssonFlipWindow - 1
+    if wtCrossUp[i] and wtBuyZone[i]
+        recentWtBuy := true
+    if wtCrossDown[i] and wtSellZone[i]
+        recentWtSell := true
+
+// ══════════════════════════════════════════════════════════════
+// RSI
+// ══════════════════════════════════════════════════════════════
+
+rsi = ta.rsi(close, rsiLenEff)
+rsiEma = ta.ema(rsi, 5)
+rsiSmoothed = isHighVol ? rsiEma : rsi
+
+// ══════════════════════════════════════════════════════════════
+// MOMENTUM & VOLUME
+// ══════════════════════════════════════════════════════════════
+
+momentum = (close - close[momLenEff]) / close[momLenEff]
+avgVol = ta.sma(volume, 20)
+volOK = volume > avgVol * dynVolMult
+
+// ══════════════════════════════════════════════════════════════
+// SUPERTREND
+// ══════════════════════════════════════════════════════════════
+
+stFactor = presetSTFactor * math.max(0.7, math.min(1.5, volRatio))
+[supertrend, stDir] = ta.supertrend(stFactor, 10)
+
+// ══════════════════════════════════════════════════════════════
+// SIGNAL GENERATION — Larsson flip + WaveTrend as primary
+// ══════════════════════════════════════════════════════════════
+
+// Base: price above/below key MA + Larsson state
+buyBase  = close > ema50 and (trendUp or ema50 > ema100)
+sellBase = close < ema50 and (trendDown or ema50 < ema100)
+
+// Larsson filter: gold state + recent flip
+larssonOkBuy  = not useLarssonFilter or (larssonGold and recentGoldFlip)
+larssonOkSell = not useLarssonFilter or (larssonBlue and recentBlueFlip)
+
+// WaveTrend filter: cross in favorable zone OR deeply oversold/overbought
+wtOkBuy  = not useWaveTrendFilter or (recentWtBuy or wt1 < wtOversold)
+wtOkSell = not useWaveTrendFilter or (recentWtSell or wt1 > wtOverbought)
+
+// Optional filters
+rsiOkBuy   = not useRsiFilter or (rsiSmoothed < dynRsiOB and rsiSmoothed > dynRsiOS)
+rsiOkSell  = not useRsiFilter or (rsiSmoothed > dynRsiOS and rsiSmoothed < dynRsiOB)
+momOkBuy   = not useMomentumFilter or momentum > dynMomThreshold
+momOkSell  = not useMomentumFilter or momentum < -dynMomThreshold
+volOkBuy   = not useVolumeFilter or volOK
+volOkSell  = not useVolumeFilter or volOK
+stOkBuy    = not useSupertrendFilter or stDir == -1
+stOkSell   = not useSupertrendFilter or stDir == 1
+
+buyCondition  = buyBase and larssonOkBuy and wtOkBuy and rsiOkBuy and momOkBuy and volOkBuy and stOkBuy
+sellCondition = sellBase and larssonOkSell and wtOkSell and rsiOkSell and momOkSell and volOkSell and stOkSell
+
+// Cooldown
+var int barsSinceSignal = 999
+barsSinceSignal := barsSinceSignal + 1
+cooldownOK = barsSinceSignal >= signalCooldown
+
+buySignal  = buyCondition and cooldownOK and strategy.position_size <= 0
+sellSignal = sellCondition and cooldownOK and strategy.position_size >= 0
+
+if buySignal
+    barsSinceSignal := 0
+if sellSignal
+    barsSinceSignal := 0
+
+// Exits — Larsson flip reversal as primary exit (not on entry bar)
+exitLong  = strategy.position_size > 0 and barsSinceSignal > 0 and (blueFlip or ta.crossunder(close, ema50))
+exitShort = strategy.position_size < 0 and barsSinceSignal > 0 and (goldFlip or ta.crossover(close, ema50))
+
+// ══════════════════════════════════════════════════════════════
+// STRATEGY EXECUTION
+// ══════════════════════════════════════════════════════════════
+
+slOffset = atr * slMultiplier * volClamp
+tpOffset = atr * tpMultiplier * volClamp
+trailAtr = atr * trailMultiplier * volClamp
+
+// Convert to ticks — anchors SL/TP to actual fill price, not signal bar close
+slTicks = slOffset / syminfo.mintick
+tpTicks = tpOffset / syminfo.mintick
+trailTicks = trailAtr / syminfo.mintick
+
+if buySignal and (tradeDirection == "Both" or tradeDirection == "Long Only")
+    strategy.entry("Long", strategy.long)
+    if useTrailingStop
+        strategy.exit("Long Exit", "Long", loss=slTicks, trail_points=trailTicks, trail_offset=trailTicks)
+    else
+        strategy.exit("Long Exit", "Long", loss=slTicks, profit=tpTicks)
+
+if sellSignal and (tradeDirection == "Both" or tradeDirection == "Short Only")
+    strategy.entry("Short", strategy.short)
+    if useTrailingStop
+        strategy.exit("Short Exit", "Short", loss=slTicks, trail_points=trailTicks, trail_offset=trailTicks)
+    else
+        strategy.exit("Short Exit", "Short", loss=slTicks, profit=tpTicks)
+
+if exitLong
+    strategy.close("Long", comment="Larsson/MA exit")
+if exitShort
+    strategy.close("Short", comment="Larsson/MA exit")
+
+// ══════════════════════════════════════════════════════════════
+// PLOTTING
+// ══════════════════════════════════════════════════════════════
+
+plot(showMAs ? ema50  : na, color=color.new(color.yellow, 20), linewidth=2, title="EMA Fast")
+plot(showMAs ? ema100 : na, color=color.new(color.blue, 20),   linewidth=2, title="EMA Mid")
+plot(showMAs ? sma200 : na, color=color.new(color.white, 20),  linewidth=2, title="SMA Slow")
+
+// Larsson Line — just the line, color = gold/blue/gray
+larssonColor = larssonGold ? color.new(#FFD700, 0) : larssonBlue ? color.new(#4169E1, 0) : color.new(color.gray, 50)
+plot(showLarsson ? hmaFast : na, color=larssonColor, linewidth=3, title="Larsson Line")
+
+// Supertrend
+stColor = stDir == -1 ? color.new(#00E676, 60) : color.new(#FF1744, 60)
+plot(showSupertrend ? supertrend : na, color=stColor, linewidth=1, title="Supertrend")
+
+// Trend background
+trendColor = trendUp ? color.new(color.green, 92) : trendDown ? color.new(color.red, 92) : color.new(color.gray, 96)
+bgcolor(showTrendBg ? trendColor : na, title="Trend Background")
+
+// Golden/Death Cross
+bullCross = ta.crossover(ema50, sma200)
+bearCross = ta.crossunder(ema50, sma200)
+plotshape(showGDCross and bullCross ? close : na, title="Golden Cross", location=location.belowbar, color=color.new(#FFD700, 0), style=shape.labelup, text="GOLDEN\nCROSS", textcolor=color.white, size=size.normal)
+plotshape(showGDCross and bearCross ? close : na, title="Death Cross", location=location.abovebar, color=color.new(#FF6D00, 0), style=shape.labeldown, text="DEATH\nCROSS", textcolor=color.white, size=size.normal)
+
+// Note: plotshape text is static. Dynamic MA labels shown via label.new in indicator version.
+
+// Buy/Sell signals
+plotshape(showBuySell and buySignal ? close : na, title="BUY", location=location.belowbar, color=color.new(#00E676, 0), style=shape.triangleup, size=size.small)
+plotshape(showBuySell and sellSignal ? close : na, title="SELL", location=location.abovebar, color=color.new(#FF1744, 0), style=shape.triangledown, size=size.small)
+
+// Exit signals
+plotshape(showExits and exitLong ? close : na, title="Exit Long", location=location.abovebar, color=color.new(color.orange, 0), style=shape.xcross, size=size.tiny)
+plotshape(showExits and exitShort ? close : na, title="Exit Short", location=location.belowbar, color=color.new(color.orange, 0), style=shape.xcross, size=size.tiny)
+
+// SL/TP labels on signals
+if showSLTP and buySignal
+    lSL = close - slOffset
+    lTP = close + tpOffset
+    rr = tpOffset / slOffset
+    label.new(bar_index, low, "BUY @ " + str.tostring(close, "#.##") + "\nSL: " + str.tostring(lSL, "#.##") + "\nTP: " + str.tostring(lTP, "#.##") + "\nR:R " + str.tostring(rr, "#.#") + ":1", style=label.style_label_up, color=color.new(#00E676, 20), textcolor=color.white, size=size.small)
+
+if showSLTP and sellSignal
+    sSL = close + slOffset
+    sTP = close - tpOffset
+    rr = tpOffset / slOffset
+    label.new(bar_index, high, "SELL @ " + str.tostring(close, "#.##") + "\nSL: " + str.tostring(sSL, "#.##") + "\nTP: " + str.tostring(sTP, "#.##") + "\nR:R " + str.tostring(rr, "#.#") + ":1", style=label.style_label_down, color=color.new(#FF1744, 20), textcolor=color.white, size=size.small)
+
+// ══════════════════════════════════════════════════════════════
+// PERFORMANCE DASHBOARD
+// ══════════════════════════════════════════════════════════════
+
+var table perfTable = table.new(position.top_right, 2, 10, bgcolor=color.new(color.black, 80), border_width=1, border_color=color.new(color.white, 80))
+
+if barstate.islast and showDashboard
+    wins = strategy.wintrades
+    losses = strategy.losstrades
+    total = strategy.closedtrades
+    winRate = total > 0 ? wins / total * 100 : 0.0
+    pf = strategy.grossloss != 0 ? math.abs(strategy.grossprofit / strategy.grossloss) : 0.0
+    netPnl = strategy.netprofit
+    maxDD = strategy.max_drawdown
+
+    filterList = (useLarssonFilter ? "L" : "") + (useWaveTrendFilter ? "W" : "") + (useSupertrendFilter ? "S" : "") + (useRsiFilter ? "R" : "") + (useMomentumFilter ? "M" : "") + (useVolumeFilter ? "V" : "")
+
+    table.cell(perfTable, 0, 0, "The Kihlstadius", text_color=color.new(#FFD700, 0), text_size=size.small)
+    table.cell(perfTable, 1, 0, preset + " " + tradeDirection, text_color=color.white, text_size=size.tiny)
+    table.cell(perfTable, 0, 1, "Win Rate", text_color=color.gray, text_size=size.tiny)
+    table.cell(perfTable, 1, 1, str.tostring(winRate, "#.#") + "% (" + str.tostring(wins) + "/" + str.tostring(total) + ")", text_color=winRate > 50 ? color.green : color.red, text_size=size.tiny)
+    table.cell(perfTable, 0, 2, "Profit Factor", text_color=color.gray, text_size=size.tiny)
+    table.cell(perfTable, 1, 2, str.tostring(pf, "#.##"), text_color=pf > 1.0 ? color.green : color.red, text_size=size.tiny)
+    table.cell(perfTable, 0, 3, "Net P&L", text_color=color.gray, text_size=size.tiny)
+    table.cell(perfTable, 1, 3, "$" + str.tostring(netPnl, "#.##"), text_color=netPnl > 0 ? color.green : color.red, text_size=size.tiny)
+    table.cell(perfTable, 0, 4, "Max Drawdown", text_color=color.gray, text_size=size.tiny)
+    table.cell(perfTable, 1, 4, "$" + str.tostring(maxDD, "#.##"), text_color=color.orange, text_size=size.tiny)
+    table.cell(perfTable, 0, 5, "Trades", text_color=color.gray, text_size=size.tiny)
+    table.cell(perfTable, 1, 5, str.tostring(total), text_color=color.white, text_size=size.tiny)
+    table.cell(perfTable, 0, 6, "Filters", text_color=color.gray, text_size=size.tiny)
+    table.cell(perfTable, 1, 6, filterList, text_color=color.aqua, text_size=size.tiny)
+
+    larssonText = larssonGold ? "GOLD" : larssonBlue ? "BLUE" : "NEUTRAL"
+    larssonCol = larssonGold ? color.new(#FFD700, 0) : larssonBlue ? color.new(#4169E1, 0) : color.gray
+    table.cell(perfTable, 0, 7, "Larsson", text_color=color.gray, text_size=size.tiny)
+    table.cell(perfTable, 1, 7, larssonText, text_color=larssonCol, text_size=size.tiny)
+
+    wtText = wt1 > wtOverbought ? "OVERBOUGHT" : wt1 < wtOversold ? "OVERSOLD" : "NEUTRAL"
+    wtCol = wt1 > wtOverbought ? color.red : wt1 < wtOversold ? color.green : color.gray
+    table.cell(perfTable, 0, 8, "WaveTrend", text_color=color.gray, text_size=size.tiny)
+    table.cell(perfTable, 1, 8, wtText + " (" + str.tostring(wt1, "#.#") + ")", text_color=wtCol, text_size=size.tiny)
+
+    volText = isHighVol ? "HIGH" : isLowVol ? "LOW" : "NORMAL"
+    table.cell(perfTable, 0, 9, "Volatility", text_color=color.gray, text_size=size.tiny)
+    table.cell(perfTable, 1, 9, volText + " (" + str.tostring(volRatio, "#.#") + "x)", text_color=isHighVol ? color.red : isLowVol ? color.blue : color.gray, text_size=size.tiny)
+
+// ════════════════════���═════════════════════════════════════════
+// ALERTS
+// ══════════════════════════════════════════════════════════════
+
+alertcondition(buySignal, title="BUY Signal", message="The Kihlstadius: BUY signal on {{ticker}} {{interval}}")
+alertcondition(sellSignal, title="SELL Signal", message="The Kihlstadius: SELL signal on {{ticker}} {{interval}}")
+alertcondition(goldFlip, title="Larsson Gold Flip", message="Larsson Line flipped GOLD on {{ticker}} {{interval}}")
+alertcondition(blueFlip, title="Larsson Blue Flip", message="Larsson Line flipped BLUE on {{ticker}} {{interval}}")

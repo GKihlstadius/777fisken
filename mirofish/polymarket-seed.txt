@@ -1,0 +1,176 @@
+# Polymarket Prediction Markets — 12 High-Value Markets for AI Swarm Analysis
+
+## Overview
+These 12 markets were selected from Polymarket based on:
+- Contested odds (15-80% range — genuine uncertainty, maximum room for edge)
+- High total volume (liquid enough to trade)
+- Diverse categories (geopolitics, economics, crypto, politics, sports, culture)
+- Resolution within 1-3 months where possible
+- Complex multi-factor outcomes where AI swarm simulation can find inefficiencies
+
+Source: Polymarket.com (gamma-api), scraped 2026-03-19
+
+---
+
+## Market 1: US x Iran Ceasefire by April 30?
+- **Category**: Geopolitics
+- **YES price**: 32.5% (implied probability)
+- **NO price**: 67.5%
+- **Total Volume**: $3,057,939
+- **Event Volume**: $21,923,843
+- **Resolution Date**: 2026-04-30
+- **Liquidity**: $148,039
+- **URL**: https://polymarket.com/event/us-x-iran-ceasefire-by
+- **Why interesting**: Mid-range probability with massive event-level volume. Diplomatic timelines are hard to predict — information asymmetry between those following back-channel signals vs. headline readers. Adjacent markets (March 31 at 6.5%, June 30 at 52%) create arbitrage-like cross-temporal analysis opportunities.
+
+## Market 2: Crude Oil (CL) Hits $110 by End of March?
+- **Category**: Commodities/Economics
+- **YES price**: 40.6% (implied probability)
+- **NO price**: 59.4%
+- **Total Volume**: $4,262,096
+- **Event Volume**: $42,231,832
+- **Resolution Date**: 2026-03-31
+- **Liquidity**: $50,030
+- **URL**: https://polymarket.com/event/will-crude-oil-cl-hit-by-end-of-march
+- **Why interesting**: Near 50/50 split with only 12 days to resolution. Oil prices driven by Iran tensions, OPEC decisions, and global demand — multiple interacting factors where a swarm can synthesize diverse signals. The $120 strike at 23.5% offers correlated upside.
+
+## Market 3: Netanyahu Out by June 30?
+- **Category**: Geopolitics/Politics
+- **YES price**: 16.5% (implied probability)
+- **NO price**: 83.5%
+- **Total Volume**: $1,669,561
+- **Event Volume**: $44,093,558
+- **Resolution Date**: 2026-06-30
+- **Liquidity**: $127,176
+- **URL**: https://polymarket.com/event/netanyahu-out-before-2027
+- **Why interesting**: The March 31 market is at 3.5% (basically dead), but June 30 jumps to 16.5% and end-of-2026 is at 46.5%. The gap between 16.5% (June) and 46.5% (Dec) suggests the market thinks most of the probability mass is in H2 2026. A swarm analyzing Israeli coalition dynamics could find mispricing in the June contract.
+
+## Market 4: Will Bitcoin Reach $100,000 by End of 2026?
+- **Category**: Crypto
+- **YES price**: 38.0% (implied probability)
+- **NO price**: 62.0%
+- **Total Volume**: $1,052,820
+- **Event Volume**: $25,370,818
+- **Resolution Date**: 2027-01-01
+- **Liquidity**: $86,020
+- **URL**: https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027
+- **Why interesting**: BTC is currently well below $100k. The 38% YES price implies meaningful but not dominant probability of recovery. Cross-reference with "BTC dip to $45k" at 46.5% — both can be true (dip then recover). A swarm can model BTC volatility distributions to find which strike prices are mispriced relative to each other.
+
+## Market 5: Will Bitcoin Dip to $45,000 by End of 2026?
+- **Category**: Crypto
+- **YES price**: 46.5% (implied probability)
+- **NO price**: 53.5%
+- **Total Volume**: $1,612,512
+- **Event Volume**: $25,370,818
+- **Resolution Date**: 2027-01-01
+- **Liquidity**: $53,669
+- **URL**: https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027
+- **Why interesting**: Nearly 50/50, maximum uncertainty. This pairs with Market 4 — if you believe BTC will dip to $45k AND recover to $100k, both YES positions could pay. A swarm analyzing macro liquidity, halving cycle effects, and correlation with equities can find edge.
+
+## Market 6: Will Lula Win the 2026 Brazilian Presidential Election?
+- **Category**: Politics
+- **YES price**: 42.5% (implied probability)
+- **NO price**: 57.5%
+- **Total Volume**: $4,047,434
+- **Event Volume**: $27,468,845
+- **Resolution Date**: 2026-10-04
+- **Liquidity**: $112,222
+- **URL**: https://polymarket.com/event/brazil-presidential-election
+- **Why interesting**: Incumbent at 42.5% — the market is split on whether Lula survives. No single challenger above 5.2%, suggesting fragmented opposition. A swarm with knowledge of Brazilian polling, economic sentiment, and Bolsonaro's legal status could find significant edge vs. uninformed traders.
+
+## Market 7: US x Iran Ceasefire by June 30?
+- **Category**: Geopolitics
+- **YES price**: 52.0% (implied probability)
+- **NO price**: 48.0%
+- **Total Volume**: $1,208,855
+- **Event Volume**: $21,923,843
+- **Resolution Date**: 2026-05-31
+- **Liquidity**: $100,911
+- **URL**: https://polymarket.com/event/us-x-iran-ceasefire-by
+- **Why interesting**: Nearly a coin flip — the most contested probability in this set. Compare with April 30 at 32.5% and December 31 at 71.5%. The May-June window is where the market thinks the deal either gets done or doesn't. Heavy information asymmetry opportunity.
+
+## Market 8: Crude Oil (CL) Hits $120 by End of March?
+- **Category**: Commodities/Economics
+- **YES price**: 23.5% (implied probability)
+- **NO price**: 76.5%
+- **Total Volume**: $4,188,721
+- **Event Volume**: $42,231,832
+- **Resolution Date**: 2026-03-31
+- **Liquidity**: $58,205
+- **URL**: https://polymarket.com/event/will-crude-oil-cl-hit-by-end-of-march
+- **Why interesting**: A tail-risk bet — 23.5% for a $120 spike within 12 days. This is effectively a bet on an escalation event (Iran conflict, supply disruption). Pairs with Market 2 ($110 at 40.6%). If a swarm believes the Iran situation is more volatile than the market prices, this offers asymmetric upside.
+
+## Market 9: Will Finland Win Eurovision 2026?
+- **Category**: Culture/Entertainment
+- **YES price**: 36.2% (implied probability)
+- **NO price**: 63.8%
+- **Total Volume**: $1,391,669
+- **Event Volume**: $22,548,389
+- **Resolution Date**: 2026-05-16
+- **Liquidity**: $193,567
+- **URL**: https://polymarket.com/event/eurovision-winner-2026
+- **Why interesting**: Finland is the clear favorite at 36.2%, with Denmark (13.3%) and France (11.5%) trailing. Eurovision betting is driven by fan sentiment and rehearsal leaks — areas where systematic analysis of social media signals and historical voting patterns can find edge. High liquidity for a non-political market.
+
+## Market 10: Will Poland Qualify for the 2026 FIFA World Cup?
+- **Category**: Sports
+- **YES price**: 33.0% (implied probability)
+- **NO price**: 67.0%
+- **Total Volume**: $463,243
+- **Resolution Date**: 2026-04-12
+- **Liquidity**: $5,343
+- **URL**: https://polymarket.com/event/will-poland-qualify-for-the-2026-fifa-world-cup
+- **Why interesting**: UEFA qualification is complex (playoffs, group dynamics). Poland at 33% alongside Italy at 66.5%, Ukraine at 27%, and Sweden at 31.5%. A swarm analyzing remaining fixtures, head-to-head records, and Elo ratings could find mispricing vs. casual bettors. Cross-market correlation analysis possible.
+
+## Market 11: China GDP Growth Q1 2026 Between 4.5-5.0%?
+- **Category**: Economics
+- **YES price**: 60.5% (implied probability)
+- **NO price**: 39.5%
+- **Total Volume**: $9,973
+- **Resolution Date**: 2026-04-17
+- **Liquidity**: $917
+- **URL**: https://polymarket.com/event/will-china-gdp-growth-in-q1-2026-be-between-4pt5-and-5pt0
+- **Why interesting**: Low volume = potentially inefficient pricing. China GDP is heavily managed and "predicted" by many analysts — if the swarm can aggregate consensus forecasts and identify where the 60.5% deviates from expert consensus, there is easy edge. Resolution in ~1 month.
+
+## Market 12: Will Viktor Orban Be the Next Prime Minister of Hungary?
+- **Category**: Politics
+- **YES price**: 34.5% (implied probability)
+- **NO price**: 65.5%
+- **Total Volume**: $3,167,824
+- **Event Volume**: $32,918,106
+- **Resolution Date**: 2026-04-12
+- **Liquidity**: $97,475
+- **URL**: https://polymarket.com/event/next-prime-minister-of-hungary
+- **Why interesting**: Orban at only 34.5% as the incumbent is striking. Hungarian politics with April elections — the market is pricing in a significant chance of regime change. A swarm analyzing Hungarian polling data, opposition coalition dynamics, and EU pressure could identify if 34.5% is too low or too high.
+
+---
+
+## Cross-Market Correlation Opportunities
+
+These markets are not independent. A swarm should analyze:
+
+1. **Iran cluster** (Markets 1, 7, 8): Iran ceasefire timeline directly affects oil prices. If ceasefire by April is underpriced, oil $120 is overpriced, and vice versa.
+2. **Bitcoin range** (Markets 4, 5): Both the $45k dip and $100k recovery can happen in the same year. The joint probability implies something about expected volatility.
+3. **European politics** (Markets 9, 10, 12): Eurovision sentiment, World Cup qualification, and Hungarian elections are weakly correlated through European mood/stability.
+4. **Macro linkage** (Markets 2, 8, 11): Oil prices, China GDP, and global economic conditions are interconnected.
+
+---
+
+## Expert Perspectives for Simulation
+
+### The Probability Analyst
+"I focus on where market prices diverge from true probability. Markets near 50% are the most interesting — the crowd is genuinely split. I check calibration: are markets that price 30% events actually resolving YES 30% of the time? Polymarket has historically been well-calibrated on politics but poorly calibrated on tail risks."
+
+### The Contrarian Trader
+"I bet against the crowd when sentiment is driving prices. Geopolitical markets overreact to news cycles — Iran tensions cause oil spikes, then revert. I look at the term structure (March vs. June vs. December) for mean-reversion signals. If the short-dated market is much lower than the long-dated one, it often means recent bad news has been over-weighted."
+
+### The Fundamental Analyst
+"Forget the odds — what does the underlying data say? For oil: inventory data, OPEC production, refinery margins. For Bitcoin: on-chain metrics, exchange flows, miner capitulation signals. For elections: polling averages, economic fundamentals, incumbency advantage models. The market is a voting machine short-term, a weighing machine long-term."
+
+### The Risk Manager
+"Position sizing matters more than prediction accuracy. Kelly criterion says bet proportional to your edge divided by the odds. With 12 markets, correlation matters — if Iran escalates, oil AND ceasefire bets move together. Never risk more than 5% on a single market. The expected loss from sizing errors exceeds the expected loss from misprediction."
+
+### The Edge Hunter
+"I focus on markets where I have an information edge. The China GDP market has tiny volume ($10k) — retail traders are not modeling this carefully. Hungarian election at 34.5% for the incumbent smells wrong. Eurovision is driven by fan communities, not rigorous analysis. These are where a systematic approach beats the crowd."
+
+## Simulation Objective
+The agents should debate each market, identify where the market price deviates from true probability, and produce a final recommendation: which of these 12 markets offer the best risk-adjusted value? Recommend specific YES or NO positions with confidence levels, suggested position sizes (Kelly-optimal), and flag correlated positions that should be treated as a single risk unit.

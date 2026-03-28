@@ -1,0 +1,80 @@
+# SHL Kvalserien & Playoff Odds — Svenska Spel Oddset, scraped 2026-03-19
+
+## Today's SHL Matches
+
+### Match 1: Luleå HF vs Örebro HK
+- **Date**: Torsdag 18:00
+- **1X2**: Luleå 1.70 / Oavgjort 4.75 / Örebro 4.30
+- **Over/Under 5.5**: Över 2.10 / Under 1.73
+- **Handicap**: Luleå -1.5 (2.08) / Örebro +1.5 (1.75)
+- **Extra marknader**: 238
+- **Analysis**: Luleå tungt favoriserade (1.70). Defending champions. Under 5.5 favoriserat.
+
+### Match 2: Malmö Redhawks vs Djurgårdens IF
+- **Date**: Fredag 18:00
+- **1X2**: Malmö 2.10 / Oavgjort 4.20 / Djurgården 3.15
+- **Over/Under 5.5**: Över 2.17 / Under 1.68
+- **Handicap**: Malmö -0.5 (2.04) / Djurgården +0.5 (1.78)
+- **Extra marknader**: 226
+- **Analysis**: Malmö slight favorit hemma. Tight match expected (under 5.5 favoriserat).
+
+### Match 3: HV 71 vs Leksands IF (Kvalserien)
+- **Date**: Tisdag 18:00
+- **1X2**: HV71 2.30 / Oavgjort 4.10 / Leksand 2.80
+- **Over/Under 4.5**: Över 1.75 / Under 2.08
+- **Handicap**: HV71 -0.5 (2.23) / Leksand +0.5 (1.65)
+- **Extra marknader**: 162
+- **Analysis**: HV71 slight hemmafördelsfavorit men Leksand nära. Under-linjen lägre (4.5) = marknaden förväntar tight/defensiv match. Leksand +0.5 tydligt favoriserat (1.65).
+
+### Match 4: Rögle BK vs Färjestad BK
+- **Date**: Tisdag 18:00
+- **1X2**: Rögle 2.43 / Oavgjort 4.00 / Färjestad 2.70
+- **Over/Under 4.5**: Över 1.72 / Under 2.12
+- **Handicap**: Rögle -0.5 (2.35) / Färjestad +0.5 (1.60)
+- **Extra marknader**: 218
+- **Analysis**: Very even match. Rögle slight favorit. Färjestad +0.5 at 1.60 = bookmaker expects close game.
+
+### Match 5: Växjö Lakers HC vs Brynäs IF
+- **Date**: Tisdag 18:00
+- **1X2**: Växjö 2.35 / Oavgjort 4.00 / Brynäs 2.80
+- **Over/Under 4.5**: Över 1.73 / Under 2.12
+- **Handicap**: Växjö -0.5 (2.28) / Brynäs +0.5 (1.63)
+- **Extra marknader**: 160
+- **Analysis**: Växjö slight favorit hemma. Even match. Brynäs +0.5 favoriserat (1.63).
+
+## Odds Summary Table
+
+| Match | Home | Draw | Away | O/U Line | Over | Under | HC Home | HC Away |
+|-------|------|------|------|----------|------|-------|---------|---------|
+| Luleå vs Örebro | 1.70 | 4.75 | 4.30 | 5.5 | 2.10 | 1.73 | -1.5 (2.08) | +1.5 (1.75) |
+| Malmö vs Djurgården | 2.10 | 4.20 | 3.15 | 5.5 | 2.17 | 1.68 | -0.5 (2.04) | +0.5 (1.78) |
+| HV71 vs Leksand | 2.30 | 4.10 | 2.80 | 4.5 | 1.75 | 2.08 | -0.5 (2.23) | +0.5 (1.65) |
+| Rögle vs Färjestad | 2.43 | 4.00 | 2.70 | 4.5 | 1.72 | 2.12 | -0.5 (2.35) | +0.5 (1.60) |
+| Växjö vs Brynäs | 2.35 | 4.00 | 2.80 | 4.5 | 1.73 | 2.12 | -0.5 (2.28) | +0.5 (1.63) |
+
+## Key Observations
+- Luleå is the only clear favorite (1.70) — rest are very competitive
+- All matches have over/under lines at 4.5-5.5 — bookmaker expects tight games
+- HV71 vs Leksand is a qualification series — highest stakes, most emotional
+- Rögle vs Färjestad and Växjö vs Brynäs are near coin-flips
+- Home advantage pricing: ~0.3-0.5 odds difference across all matches
+
+## Expert Perspectives for Simulation
+
+### The Value Bettor
+"The tightest matches (Rögle-Färjestad, Växjö-Brynäs) offer the most value because the market is essentially guessing. Look for small edges in form and motivation. The handicap +0.5 lines for underdogs are interesting value plays."
+
+### The Stats Analyst
+"Under 4.5/5.5 is heavily favored across all matches. SHL playoff/kval games historically produce fewer goals. The discipline and defensive structure tightens significantly. I'd bet under on all five."
+
+### The Hockey Scout
+"Luleå at 1.70 looks like the safest pick. Defending champions, best team in SHL. But at 1.70, is there value? You need to win 59% of the time just to break even. I'd rather look at the underdogs with handicap covers."
+
+### The Contrarian
+"Everyone loves Luleå. The smart money is fading them at 1.70. Örebro has nothing to lose, plays loose and dangerous. The real play today is a multi-bet: Örebro +1.5, Leksand +0.5, Brynäs +0.5."
+
+### The Risk Manager
+"With 5 matches, you can build a diversified portfolio. Don't bet heavy on any single game. Spread across handicap markets where the edge is clearest. Maximum 2% of bankroll per bet, Kelly criterion suggests even less on coin-flip games."
+
+## Disclaimer
+This analysis is for entertainment and educational purposes. Sports betting involves risk. Past performance cannot guarantee future outcomes. Please bet responsibly.

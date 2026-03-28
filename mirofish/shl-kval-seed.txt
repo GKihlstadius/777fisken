@@ -1,0 +1,162 @@
+# SHL Kvalserien 2026: HV71 vs Leksands IF — Betting Analysis Seed Data
+
+## 1. Match Overview
+
+- **Competition**: SHL Kvalserien (Qualification Series) 2025/26
+- **Match**: HV71 vs Leksands IF
+- **Date**: March 18, 2026 — Matchstart 18:00
+- **Venue**: Kinnarps Arena, Jönköping (HV71 home)
+- **Context**: Best-of-7 qualification series to determine SHL spot for 2026/27
+- **Svenska Spel Match ID**: 1026965564
+
+## LIVE ODDS — Svenska Spel Oddset (scraped 2026-03-18)
+
+### Match Odds - Ordinarie tid (60 min)
+| Utfall | Odds |
+|--------|------|
+| HV 71 (1) | **2.25** |
+| Oavgjort (X) | **4.25** |
+| Leksands IF (2) | **2.85** |
+
+### Inklusive förlängning (inkl. OT/straffar)
+| Utfall | Odds |
+|--------|------|
+| HV 71 | **1.73** |
+| Leksands IF | **2.06** |
+
+### Totala mål - Ordinarie tid
+| Linje | Odds |
+|-------|------|
+| Över 5.5 | **2.25** |
+| Under 5.5 | **1.64** |
+
+### Handicap - Ordinarie tid
+| Utfall | Handicap | Odds |
+|--------|----------|------|
+| HV 71 | -0.5 | **2.20** |
+| Leksands IF | +0.5 | **1.68** |
+
+### Odds-analys
+- HV71 favorit hemma (2.25 vs 2.85) men inte tungt favoriserat
+- Implied probability: HV71 ~44%, Draw ~24%, Leksand ~35% (inkl. marginal)
+- Inklusive OT: HV71 ~58% vs Leksand ~49% (visar marknadens tro på HV71 hemma)
+- Under 5.5 mål favoriserat (1.64) — marknaden förväntar en tight match
+- Handicap -0.5 HV71 (2.20) nära 1X2-oddset — konsistent prissättning
+
+### Tillgängliga marknader
+- Match Odds (ordinarie tid + inkl. förlängning)
+- Totala mål (Över/Under)
+- Handicap
+- Målgörare
+- Spelarpoäng / Spelarmål / Spelarassist
+- Matchhändelser
+- Period-spel (1:a, 2:a, 3:e perioden)
+
+## 2. Competition Context
+
+The SHL Kvalserien is played between the bottom teams from SHL and top teams from HockeyAllsvenskan. Teams play a best-of-7 series. The winner earns/retains their SHL spot for next season.
+
+### Stakes
+- **HV71**: Fighting to stay in SHL after a poor regular season (finished in qualification zone, positions 11-14)
+- **Leksands IF**: Competing to earn promotion/retain their SHL position
+- Both teams have passionate fanbases and historical rivalry — this is a high-pressure series
+
+## 3. Team Profiles
+
+### HV71
+- **City**: Jönköping
+- **Arena**: Kinnarps Arena (capacity ~7,000)
+- **Historical Success**: 5x Swedish champions (1995, 2004, 2008, 2010, 2017), traditionally a top SHL team
+- **2025/26 Season**: Disappointing — finished in qualification zone after struggling throughout the regular season
+- **Current Form**: Poor. Fan forums describe "collective mental exhaustion" and "confused play" (March 2026)
+- **Key Sponsor**: Husqvarna
+- **Coaching**: Under pressure due to poor results
+- **Playing Style**: Historically strong defensive structure, physical play, good home record
+- **Strengths**: Home ice advantage (Kinnarps Arena is a tough venue), experienced players, playoff pedigree
+- **Weaknesses**: Inconsistent scoring, defensive lapses, low confidence after poor season
+
+### Leksands IF
+- **City**: Leksand (Dalarna)
+- **Arena**: Tegera Arena (capacity ~8,000)
+- **Historical Significance**: One of Sweden's most iconic hockey clubs, massive fanbase relative to city size
+- **2025/26 Season**: Competing in qualification round
+- **Key Events**: Selling tickets for qualification matches at Tegera Arena
+- **Playing Style**: Passionate crowd support, physical blue-collar hockey, strong team cohesion
+- **Strengths**: Fan support (especially at home), team spirit, nothing-to-lose mentality if coming from HockeyAllsvenskan
+- **Weaknesses**: May lack top-tier individual talent compared to SHL established teams
+
+## 4. SHL 2025/26 Context
+
+### League Structure
+- 14 teams in SHL
+- Regular season: 52 games per team
+- Top 6: Advance directly to SHL playoffs
+- 7-10: Play first-round playoff qualifiers
+- 11-14: Enter Kvalserien (qualification series) against HockeyAllsvenskan teams
+- Defending champion: Luleå HF (won 2024/25)
+
+### Top Scorers in SHL 2025/26 (Regular Season)
+- Oscar Lindberg (Skellefteå AIK): 67 points in 52 games
+- Notable goaltending: Tobias Normann (Frölunda HC) — 1.68 GAA, .923 SV%
+
+## 5. Head-to-Head Historical Context
+
+### General H2H
+- HV71 and Leksand have met many times in SHL and qualification series historically
+- Both are traditional Swedish hockey clubs with deep roots
+- Qualification series between these teams are always intense, high-emotion affairs
+- HV71 was previously relegated in 2018/19, fought back through kvalserien — they know the pressure
+- Leksand has their own history of yo-yoing between leagues
+
+### Emotional Factor
+- HV71 fans: Frustration building all season, desperate to avoid relegation
+- Leksand fans: Among the most passionate in Swedish hockey, travel in large numbers
+- Home advantage is significant in kvalserien — hostile arena atmosphere can intimidate
+
+## 6. Betting Considerations
+
+### Key Factors for Analysis
+1. **Home Ice**: HV71 playing at home (Kinnarps Arena) — historically a strong factor
+2. **Momentum**: HV71 in poor form; "confused play" reported by fans
+3. **Desperation**: Both teams fighting for SHL survival — maximum effort expected
+4. **Series Context**: Is this game 1, or later in the series? Series score matters enormously
+5. **Goaltending**: Often the deciding factor in tight qualification games
+6. **Special Teams**: Power play and penalty kill efficiency tends to separate teams in playoffs
+7. **Physicality**: Qualification games are always more physical than regular season
+8. **Experience**: HV71's history in these situations (been through kvalserien before)
+
+### Typical Betting Markets (SHL Qualification)
+- **1X2**: Home win / Draw (after 60 min) / Away win
+- **Over/Under Goals**: Usually 4.5 or 5.5 total goals
+- **Handicap**: +/- 1.5 goals
+- **Period Betting**: 1st/2nd/3rd period winner
+- **Both Teams to Score**: Yes/No
+- **Correct Score**: Various scorelines
+- **Goalscorer Markets**: First/last/anytime goalscorer
+
+### Statistical Tendencies in SHL Kvalserien
+- Home teams win approximately 55-60% of qualification games
+- Games tend to be tight (average margin ~1.5 goals)
+- Under 5.5 goals hits in roughly 60% of qualification matches
+- First goal is critical — team scoring first wins ~65% of qualification games
+- Overtime occurs in approximately 20-25% of qualification matches
+
+## 7. Expert Perspectives for Simulation
+
+### The Statistical Analyst
+"Home advantage in kvalserien is real but not overwhelming. HV71's poor form is concerning — momentum matters more than regular season record at this point. The team that controls the neutral zone will control the game."
+
+### The Betting Sharp
+"The public overvalues home advantage. If HV71's form is genuinely bad, the odds may be inflated. Look at the goaltending matchup — that's where the value is. Also check the over/under — desperate teams either play wide open (over) or extremely tight (under)."
+
+### The Hockey Scout
+"Kvalserien is about character, not talent. Both teams have enough skill. The question is: who handles the pressure better? HV71 has been here before (2019 relegation). That experience either helps (they know the drill) or hurts (PTSD from past trauma)."
+
+### The Momentum Trader
+"Form is everything right now. HV71's fans describe 'collective mental exhaustion' — that's a team that may crack under pressure. But home ice changes everything. The Kinnarps Arena crowd can lift them or put more pressure on them. It's a coin flip that I'd slightly favor the visiting team if they have better recent form."
+
+### The Value Hunter
+"Forget the prediction — focus on where the market is wrong. Qualification games are inherently unpredictable. The value is in the over/under and period markets, not necessarily the match result. Look for 1st period draw + low scoring as a value play — both teams tend to be cautious early."
+
+## 8. Disclaimer
+This analysis is for entertainment and educational purposes. Sports betting involves risk. Past performance and statistical analysis cannot guarantee future outcomes. Please bet responsibly.

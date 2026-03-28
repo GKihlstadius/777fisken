@@ -1,0 +1,547 @@
+# SHL Match Odds — HV 71 vs Leksands IF
+# Svenska Spel Oddset (Kambi), scraped 2026-03-20
+# Source: https://spela.svenskaspel.se/odds/ishockey/sverige/shl/hv-71---leksands-if/1026967944
+# Match: HV 71 - Leksands IF
+# Kickoff: 2026-03-20 18:00 CET (Idag 18:00)
+# Total markets: 222
+
+## 1. Match Markets
+
+### Match Odds - Ordinarie tid (1X2)
+- 1: 2.20
+- X: 4.20
+- 2: 2.95
+
+### Inklusive förlängning (Head-to-Head)
+- Leksands IF: 2.17
+- HV 71: 1.66
+
+### Dubbelchans - Ordinarie tid
+- 1X: 1.44
+- X2: 1.73
+- 12: 1.26
+
+### Pengarna tillbaka vid oavgjort - Ordinarie tid (Draw No Bet)
+- 1: 1.66
+- 2: 2.20
+
+## 2. Over/Under (Totala mål)
+
+### Totala mål - Ordinarie tid
+- Över 2.5: 1.12
+- Under 2.5: 6.25
+- Över 3.5: 1.30
+- Under 3.5: 3.55
+- Över 4.5: 1.73
+- Under 4.5: 2.10
+- Över 5.5: 2.43
+- Under 5.5: 1.56
+- Över 6.5: 3.80
+- Under 6.5: 1.27
+- Över 7.5: 6.10
+- Under 7.5: 1.13
+
+### Totala mål - Inklusive förlängning
+- Över 2.5: 1.05
+- Under 2.5: 10.00
+- Över 3.5: 1.30
+- Under 3.5: 3.55
+- Över 4.5: 1.50
+- Under 4.5: 2.55
+- Över 5.5: 2.43
+- Under 5.5: 1.56
+- Över 6.5: 3.20
+- Under 6.5: 1.35
+- Över 7.5: 6.10
+- Under 7.5: 1.13
+
+### Totala mål - Första perioden
+- Över 0.5: 1.22
+- Under 0.5: 3.90
+- Över 1.5: 2.05
+- Under 1.5: 1.70
+- Över 2.5: 4.25
+- Under 2.5: 1.19
+
+### Totala mål - Andra perioden
+- Över 0.5: 1.18
+- Under 0.5: 4.40
+- Över 1.5: 1.88
+- Under 1.5: 1.84
+- Över 2.5: 3.75
+- Under 2.5: 1.24
+
+### Totala mål - Tredje perioden
+- Över 0.5: 1.15
+- Under 0.5: 4.80
+- Över 1.5: 1.71
+- Under 1.5: 2.02
+- Över 2.5: 3.15
+- Under 2.5: 1.32
+
+## 3. Team Totals (Lagets mål)
+
+### Totala mål för HV 71 - Ordinarie tid
+- Över 1.5: 1.32
+- Under 1.5: 3.30
+- Över 2.5: 1.89
+- Under 2.5: 1.87
+- Över 3.5: 3.00
+- Under 3.5: 1.37
+- Över 4.5: 5.40
+- Under 4.5: 1.14
+
+### Totala mål för HV 71 - Inklusive förlängning
+- Under 1.5: 3.70
+- Över 1.5: 1.26
+- Under 2.5: 2.05
+- Över 2.5: 1.74
+- Under 3.5: 1.42
+- Över 3.5: 2.80
+- Under 4.5: 1.15
+- Över 4.5: 5.10
+
+### Totala mål för HV 71 - Första perioden
+- Under 0.5: 2.12
+- Över 0.5: 1.66
+
+### Totala mål för HV 71 - Andra perioden
+- Över 0.5: 1.60
+- Under 0.5: 2.23
+
+### Totala mål för HV 71 - Tredje perioden
+- Över 0.5: 1.55
+- Under 0.5: 2.33
+- Över 1.5: 3.35
+- Under 1.5: 1.29
+
+### Totala mål för Leksands IF - Ordinarie tid
+- Över 1.5: 1.45
+- Under 1.5: 2.70
+- Över 2.5: 2.32
+- Under 2.5: 1.58
+- Över 3.5: 4.10
+- Under 3.5: 1.22
+
+### Totala mål för Leksands IF - Inklusive förlängning
+- Över 1.5: 1.38
+- Under 1.5: 2.88
+- Över 2.5: 2.14
+- Under 2.5: 1.68
+- Över 3.5: 3.75
+- Under 3.5: 1.25
+
+### Totala mål för Leksands IF - Första perioden
+- Över 0.5: 1.86
+- Under 0.5: 1.86
+
+### Totala mål för Leksands IF - Andra perioden
+- Över 0.5: 1.73
+- Under 0.5: 2.02
+
+### Totala mål för Leksands IF - Tredje perioden
+- Över 0.5: 1.67
+- Under 0.5: 2.10
+
+## 4. Both Teams to Score (Båda lagen gör mål)
+
+### Båda lagen gör minst två mål - Ordinarie tid
+- Ja: 1.88
+- Nej: 1.80
+
+### Båda lagen gör mål - Andra perioden
+- Ja: 2.75
+- Nej: 1.38
+
+### Båda lagen gör mål - Första perioden
+- Ja: 3.05
+- Nej: 1.32
+
+### Båda lagen gör mål - Inklusive förlängning
+- Ja: 1.15
+- Nej: 4.60
+
+### Båda lagen gör mål - Ordinarie tid
+- Ja: 1.15
+- Nej: 4.60
+
+### Båda lagen gör mål - Tredje perioden
+- Ja: 2.60
+- Nej: 1.42
+
+### Båda lagen gör åtminstone 2 mål - Inklusive förlängning
+- Ja: 1.88
+- Nej: 1.80
+
+## 5. Handicap
+
+### Handicap - Ordinarie tid
+- HV 71 (-0.5) @ 2.14 | Leksands IF (+0.5) @ 1.71 **MAIN**
+- HV 71 (+0.5) @ 1.43 | Leksands IF (-0.5) @ 2.85
+- HV 71 (+1.5) @ 1.22 | Leksands IF (-1.5) @ 4.25
+- HV 71 (-1.5) @ 2.88 | Leksands IF (+1.5) @ 1.42
+- HV 71 (-2.5) @ 4.40 | Leksands IF (+2.5) @ 1.21
+
+### Handicap - Inklusive förlängning
+- HV 71 (+0.5) @ 1.68 | Leksands IF (-0.5) @ 2.20
+- HV 71 (-0.5) @ 1.68 | Leksands IF (+0.5) @ 2.20 **MAIN**
+- HV 71 (-1.5) @ 2.88 | Leksands IF (+1.5) @ 1.42
+- HV 71 (+1.5) @ 1.22 | Leksands IF (-1.5) @ 4.25
+- HV 71 (-2.5) @ 4.40 | Leksands IF (+2.5) @ 1.21
+
+### 3-vägshandicap - Ordinarie tid
+- 1 (-3.0) @ 10.00 | 2 (-3.0) @ 1.22 | X (-3.0) @ 7.50
+- 1 (-2.0) @ 4.50 | 2 (-2.0) @ 1.44 | X (-2.0) @ 7.50
+- 1 (-1.0) @ 2.95 | 2 (-1.0) @ 1.74 | X (-1.0) @ 7.50
+- 1 (+1.0) @ 1.44 | 2 (+1.0) @ 4.40 | X (+1.0) @ 7.50
+- 1 (+2.0) @ 1.23 | 2 (+2.0) @ 7.50 | X (+2.0) @ 9.50
+
+### 3-vägs handicap - Inklusive förlängning
+- 1 (-3.0) @ 10.00 | X (-3.0) @ 7.50 | 2 (-3.0) @ 1.22
+- 1 (-2.0) @ 4.50 | X (-2.0) @ 7.50 | 2 (-2.0) @ 1.44
+- 1 (-1.0) @ 2.95 | X (-1.0) @ 3.80 | 2 (-1.0) @ 2.23
+- 1 (+1.0) @ 1.70 | X (+1.0) @ 4.20 | 2 (+1.0) @ 4.40
+- 1 (+2.0) @ 1.23 | X (+2.0) @ 9.50 | 2 (+2.0) @ 7.50
+
+## 6. Period Markets
+
+### Första perioden (1X2)
+- 1: 2.60
+- X: 2.60
+- 2: 3.30
+
+### Dubbelchans - Första perioden
+- 1X: 1.33
+- X2: 1.49
+- 12: 1.50
+
+### Pengarna tillbaka vid oavgjort - Första perioden
+- 1: 1.66
+- 2: 2.10
+
+### Andra perioden (1X2)
+- 1: 2.60
+- X: 2.70
+- 2: 3.10
+
+### Dubbelchans - Andra perioden
+- X2: 1.49
+- 12: 1.46
+- 1X: 1.36
+
+### Pengarna tillbaka vid oavgjort - Andra perioden
+- 1: 1.71
+- 2: 2.04
+
+### Tredje perioden (1X2)
+- 1: 2.48
+- X: 2.95
+- 2: 3.00
+
+### Dubbelchans - Tredje perioden
+- 1X: 1.38
+- X2: 1.53
+- 12: 1.38
+
+### Pengarna tillbaka vid oavgjort - Tredje perioden
+- 1: 1.71
+- 2: 2.04
+
+## 7. Correct Score (Korrekt resultat)
+
+### Korrekt resultat - Ordinarie tid
+- 2-2: 9.00
+- 1-1: 11.00
+- 3-3: 12.50
+- 4-1: 13.00
+- 3-2: 14.00
+- 3-1: 14.00
+- 1-2: 15.00
+- 1-3: 15.00
+- 2-3: 15.00
+- 4-2: 15.00
+- 2-1: 15.00
+- 5-2: 17.00
+- 1-4: 17.00
+- 3-0: 18.00
+- 2-4: 19.00
+- ... and 25 more scorelines
+
+### Slutresultat - Inklusive förlängning
+- 3-2: 8.50
+- 2-3: 9.50
+- 2-1: 10.00
+- 1-2: 10.50
+- 4-3: 13.00
+- 4-1: 13.00
+- 3-1: 14.00
+- 3-4: 14.00
+- 1-3: 15.00
+- 4-2: 15.00
+- 5-2: 17.00
+- 1-4: 17.00
+- 3-0: 18.00
+- 2-4: 19.00
+- 5-1: 23.00
+- ... and 19 more scorelines
+
+### Korrekt resultat - Första perioden
+- 0-0: 3.20
+- 1-0: 3.65
+- 0-1: 4.20
+- 1-1: 4.80
+- 2-0: 7.00
+- 0-2: 9.50
+- 2-1: 9.50
+- 1-2: 11.00
+- 3-0: 19.00
+- 2-2: 21.00
+- 3-1: 26.00
+
+### Korrekt resultat - Andra perioden
+- 0-0: 3.60
+- 1-0: 3.85
+- 0-1: 4.30
+- 1-1: 4.60
+- 2-0: 7.00
+- 0-2: 8.50
+- 2-1: 9.00
+- 1-2: 10.00
+- 3-0: 19.00
+- 2-2: 19.00
+- 3-1: 21.00
+- 3-2: 51.00
+
+### Korrekt resultat - Tredje perioden
+- 0-0: 3.95
+- 1-0: 4.20
+- 0-1: 4.60
+- 1-1: 5.00
+- 2-0: 6.75
+- 2-1: 8.50
+- 0-2: 8.50
+- 1-2: 9.50
+- 3-0: 14.00
+- 2-2: 17.00
+- 3-1: 18.00
+- 0-3: 20.00
+- 1-3: 23.00
+- 3-2: 36.00
+- 2-3: 46.00
+
+## 8. Shots on Target (Skott på mål)
+
+### Totala skott på mål - Inklusive förlängning
+- Över 48.5: 1.87
+- Under 48.5: 1.84
+- Över 49.5: 2.02
+- Under 49.5: 1.71
+- Över 50.5: 2.18
+- Under 50.5: 1.61
+- Över 51.5: 2.38
+- Under 51.5: 1.52
+- Över 52.5: 2.60
+- Under 52.5: 1.44
+
+### Totala skott på mål av HV 71 - Inklusive förlängning
+- Över 24.5: 1.74
+- Under 24.5: 1.98
+- Över 25.5: 1.93
+- Under 25.5: 1.78
+- Över 26.5: 2.16
+- Under 26.5: 1.62
+- Över 27.5: 2.43
+- Under 27.5: 1.50
+
+### Totala skott på mål av Leksands IF - Inklusive förlängning
+- Över 22.5: 1.70
+- Under 22.5: 2.02
+- Över 23.5: 1.91
+- Under 23.5: 1.80
+- Över 24.5: 2.16
+- Under 24.5: 1.62
+- Över 25.5: 2.45
+- Under 25.5: 1.49
+
+## 9. Player Props (Spelarmarknader)
+
+### Målskytt - Inklusive förlängning (Anytime Goalscorer)
+- Jonathan Ang: 2.80
+- Lukas Vejdemo: 3.10
+- Riley Woods: 3.30
+- Hugo Pettersson: 3.40
+- Michael Lindqvist: 3.85
+- Joona Luoto: 4.20
+- Justin Kloos: 4.35
+- Max Veronneau: 4.40
+- Peter Cehlárik: 4.60
+- Nolan Stevens: 4.60
+- Mattias Tedenby: 4.70
+- Tinus Luc Koblar: 5.00
+- Gabriel Fortier: 5.30
+- Oskar Stål Lyrenäs: 5.60
+- Oskar Lang: 5.60
+- Axel Rindell: 5.75
+- Nikola Pasic: 5.75
+- Lukas Rousek: 6.25
+- Hugo Fransson: 6.50
+- Martin Johnsen: 6.50
+- Olle Strandell: 6.50
+- Kalle Östman: 6.75
+- Andro Kaderli: 6.75
+- Victor Laz: 7.50
+- Marcus Karlberg: 7.50
+- Matt Caito: 8.50
+- Anton Johansson: 8.50
+- Santeri Hatakka: 8.50
+- William Nilsson Ignberg: 9.00
+- Olle Alsing: 9.00
+- Andreas Borgman: 10.00
+- Wiktor Nilsson: 11.00
+- Niklas Hansson: 11.50
+- Alexander Lundqvist: 12.00
+- Fred Nilsson: 14.00
+- Stefan Milosevic: 14.00
+- Rocky Langvardt: 15.00
+
+### Spelare som gör minst 2 mål - Inklusive förlängning
+- Jonathan Ang: 10.50
+- Lukas Vejdemo: 13.00
+- Riley Woods: 14.00
+- Hugo Pettersson: 15.00
+- Michael Lindqvist: 20.00
+- Joona Luoto: 25.00
+- Max Veronneau: 25.00
+- Justin Kloos: 26.00
+- Nolan Stevens: 29.00
+- Peter Cehlárik: 29.00
+- Mattias Tedenby: 31.00
+- Tinus Luc Koblar: 36.00
+- Gabriel Fortier: 41.00
+- Nikola Pasic: 46.00
+- Oskar Stål Lyrenäs: 46.00
+- Oskar Lang: 46.00
+- Axel Rindell: 46.00
+- Lukas Rousek: 56.00
+- Olle Strandell: 67.00
+- Martin Johnsen: 67.00
+- Hugo Fransson: 67.00
+- Kalle Östman: 71.00
+- Andro Kaderli: 76.00
+- Marcus Karlberg: 81.00
+- Victor Laz: 91.00
+- Santeri Hatakka: 121.00
+- Matt Caito: 126.00
+- Olle Alsing: 131.00
+- William Nilsson Ignberg: 131.00
+- Anton Johansson: 141.00
+
+### Spelare som gör minst 3 mål - Inklusive förlängning (Hat-trick)
+- Jonathan Ang: 56.00
+- Lukas Vejdemo: 76.00
+- Riley Woods: 76.00
+- Hugo Pettersson: 101.00
+- Michael Lindqvist: 151.00
+
+### Spelare som gör minst 1 poäng - Inklusive förlängning (1+ Points)
+- Jonathan Ang: 1.68
+- Michael Lindqvist: 1.71
+- Riley Woods: 1.87
+- Lukas Vejdemo: 1.91
+- Max Veronneau: 2.00
+- Axel Rindell: 2.06
+- Lukas Rousek: 2.08
+- Justin Kloos: 2.18
+- Anton Johansson: 2.40
+- Hugo Pettersson: 2.45
+- Peter Cehlárik: 2.55
+- Hugo Fransson: 2.70
+- Tinus Luc Koblar: 2.88
+- Gabriel Fortier: 2.88
+- Niklas Hansson: 2.88
+- Oskar Stål Lyrenäs: 2.95
+- Nolan Stevens: 2.95
+- Joona Luoto: 3.05
+- Andreas Borgman: 3.30
+- Mattias Tedenby: 3.35
+- Santeri Hatakka: 3.45
+- Andro Kaderli: 3.45
+- Oskar Lang: 3.55
+- Olle Strandell: 3.60
+- Martin Johnsen: 3.65
+- Olle Alsing: 3.70
+- Nikola Pasic: 3.75
+
+### Spelare som gör minst 2 poäng - Inklusive förlängning (2+ Points)
+- Jonathan Ang: 4.10
+- Michael Lindqvist: 4.25
+- Riley Woods: 5.00
+- Lukas Vejdemo: 5.30
+- Max Veronneau: 5.75
+- Axel Rindell: 6.00
+- Lukas Rousek: 6.00
+- Justin Kloos: 6.75
+- Anton Johansson: 7.50
+- Hugo Pettersson: 8.00
+- Peter Cehlárik: 9.00
+- Hugo Fransson: 9.50
+
+### Spelare som gör minst 1 assist - Inklusive förlängning (1+ Assists)
+- Michael Lindqvist: 2.15
+- Lukas Rousek: 2.40
+- Axel Rindell: 2.45
+- Jonathan Ang: 2.48
+- Max Veronneau: 2.63
+- Anton Johansson: 2.65
+- Riley Woods: 2.75
+- Lukas Vejdemo: 3.00
+- Justin Kloos: 3.00
+- Niklas Hansson: 3.15
+- Hugo Fransson: 3.35
+
+## 10. Odds Summary
+
+| Market | Selection | Odds |
+|--------|-----------|------|
+| 1X2 Reg. | 1 | 2.20 |
+| 1X2 Reg. | X | 4.20 |
+| 1X2 Reg. | 2 | 2.95 |
+| Incl. OT | Leksands IF | 2.17 |
+| Incl. OT | HV 71 | 1.66 |
+| O/U Reg. | Över 4.5 | 1.73 |
+| O/U Reg. | Under 4.5 | 2.10 |
+| HC Reg. | HV 71 -0.5 | 2.14 |
+| HC Reg. | Leksands IF +0.5 | 1.71 |
+
+## 11. Key Observations
+
+- HV 71 slight favorites at home (2.20 vs 2.95 for Leksand in regulation)
+- Including overtime: HV 71 1.66, Leksand 2.17 — implies ~58% win probability for HV 71
+- Main O/U line is 4.5 goals (Under 2.10 / Over 1.73) — market expects tight, defensive game
+- Handicap -0.5 HV71 at 2.14 vs +0.5 Leksand at 1.71 — Leksand covering spread is favored
+- Both teams to score (regulation): 1.15 Yes / 4.60 No — near certainty both score
+- Period 1X2 very balanced: all three outcomes 2.48-3.30 each period
+- Jonathan Ang is favorite goalscorer at 2.80, Lukas Vejdemo at 3.10, Riley Woods at 3.30
+- Correct score favorites: 2-2 (9.00), 3-2 (14.00), 2-1 (15.00) in regulation
+- Shots on target main line: 48.5 total, 25.5 HV 71, 23.5 Leksand — HV 71 expected to outshoot
+- 37 named players have goalscorer odds — deep player prop market
+
+## 12. Expert Perspectives for Simulation
+
+### The Value Bettor
+"Leksand +0.5 at 1.71 is the standout value play. The market says Leksand avoids regulation loss ~59% of the time. In a tight qualification match, that's reasonable. The 3-way handicap HV 71 -1 at 2.95 is interesting if you believe in home dominance — but the period markets suggest an incredibly even game."
+
+### The Stats Analyst
+"Under 4.5 at 2.10 is where I focus. SHL qualification matches are historically low-scoring: high stakes, defensive hockey, cautious coaching. Both teams to score is priced at 1.15 (near-lock), so expect a 2-1 or 2-2 type game. The period unders (1.5 goals per period) offer value in high-pressure spots. Team totals suggest HV 71 scores ~2.5 goals and Leksand ~2.3 goals in regulation."
+
+### The Hockey Scout
+"Jonathan Ang at 2.80 anytime scorer is the sharpest player prop. He's been HV 71's most dangerous forward this season. On the Leksand side, Hugo Pettersson (3.40) and Riley Woods (3.30) carry the scoring burden. Lukas Vejdemo (3.10) is a proven SHL scorer who raises his game in big moments. For deep value, Gabriel Fortier at 5.30 and Oskar Stal Lyrenas at 5.60 are underpriced if they get top-line minutes."
+
+### The Contrarian
+"Everyone expects a tight game (Under 4.5 favored). But qualification desperation can break open games — both teams NEED this win. Over 5.5 at 2.43 has upset potential. The 0-0 correct score at 36.00 shows the market thinks goals will come from both sides. The 2-2 at 9.00 is the most likely regulation result — a draw forcing overtime, which is the most entertaining outcome for neutrals."
+
+### The Risk Manager
+"This is a single high-stakes match — maximum uncertainty. Spread risk across correlated but independent markets: Leksand +0.5 (1.71), Under 4.5 (2.10), and Both Teams Score Yes (1.15) as a safe anchor. Kelly criterion says bet small on a coin-flip match. The 37 goalscorer markets are entertainment bets — 2.80 on Ang means you lose 64% of the time. Shots on target over/under is an underappreciated market with less sharp money."
+
+## Disclaimer
+This data is for analysis and simulation purposes. Sports betting involves risk. Odds are subject to change. Please bet responsibly.

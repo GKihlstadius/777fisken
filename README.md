@@ -87,43 +87,74 @@ The result: emergent collective intelligence that catches edge cases single mode
 
 ## Run Your Own Simulations
 
-Want to run the fish yourself?
+This repo includes a **complete, pre-configured MiroFish fork** — no need to clone separately. Everything runs on free API tiers.
 
 ### Prerequisites
 
-| Tool | Version |
-|------|---------|
-| Node.js | 18+ |
-| Python | 3.11-3.12 |
-| uv | Latest |
+| Tool | Version | Get it |
+|------|---------|--------|
+| Node.js | 18+ | [nodejs.org](https://nodejs.org/) |
+| Python | 3.11-3.12 | [python.org](https://www.python.org/) |
+| uv | Latest | `curl -LsSf https://astral.sh/uv/install.sh \| sh` |
 
-### Quick Start
+### Step 1: Clone & Configure
 
 ```bash
-# Clone MiroFish
-git clone https://github.com/666ghj/MiroFish.git
-cd MiroFish
+git clone https://github.com/GKihlstadius/777fisken.git
+cd 777fisken/mirofish
 
-# Configure (free API keys)
+# Set up your API keys (all free)
 cp .env.example .env
-# Edit .env with your keys:
-# - Groq (free): https://console.groq.com/
-# - OpenRouter (free tier): https://openrouter.ai/
-# - Zep Cloud (free tier): https://app.getzep.com/
-
-# Install & run
-npm run setup:all
-npm run dev
-# Open http://localhost:3000
 ```
 
-### Using Our Seed Files
+Edit `.env` with your keys:
 
-Drop any of the seed files from this repo into MiroFish's upload interface. The engine will automatically construct the knowledge graph and start the simulation.
+| Service | Cost | Sign up |
+|---------|------|---------|
+| **Groq** (Primary LLM) | Free | [console.groq.com](https://console.groq.com/) |
+| **OpenRouter** (Fallback LLM) | Free tier | [openrouter.ai](https://openrouter.ai/) |
+| **Zep Cloud** (Memory graph) | Free tier | [app.getzep.com](https://app.getzep.com/) |
+
+```env
+# .env — fill in your keys
+PRIMARY_LLM_API_KEY=gsk_your_groq_key
+PRIMARY_LLM_BASE_URL=https://api.groq.com/openai/v1
+PRIMARY_LLM_MODEL=llama-3.3-70b-versatile
+
+FALLBACK_LLM_API_KEY=sk-or-your_openrouter_key
+FALLBACK_LLM_BASE_URL=https://openrouter.ai/api/v1
+FALLBACK_LLM_MODEL=meta-llama/llama-3.3-70b-instruct:free
+
+ZEP_API_KEY=your_zep_api_key
+```
+
+### Step 2: Install & Run
 
 ```bash
-# Clone this repo for seed data
-git clone https://github.com/GKihlstadius/777fisken.git
+# One command installs everything (Node + Python deps)
+npm run setup:all
+
+# Start the engine
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) — frontend is ready. Backend API runs on port 5001.
+
+### Step 3: Run a Simulation
+
+1. Open the MiroFish UI at `localhost:3000`
+2. Upload any seed file from the `seeds/` directory
+3. Describe your prediction question in natural language
+4. Watch 1000+ agents debate the outcome
+5. Get your prediction report
+
+### Docker Alternative
+
+```bash
+cd mirofish
+cp .env.example .env   # edit with your keys
+docker compose up -d
+# Frontend: localhost:3000 | Backend: localhost:5001
 ```
 
 ## Seed Files
@@ -132,6 +163,26 @@ git clone https://github.com/GKihlstadius/777fisken.git
 |------|-------------|
 | `seeds/polymarket-12-markets.txt` | 12 high-value Polymarket markets with cross-correlation analysis |
 | `seeds/eurojackpot.txt` | Lottery pattern analysis seed |
+| `mirofish/shl-*.txt` | SHL hockey prediction seeds (Swedish Hockey League playoffs) |
+| `mirofish/the-kihlstadius*.pine` | TradingView Pine Script strategies |
+
+## Project Structure
+
+```
+777fisken/
+├── README.md              # You are here
+├── content-library.md     # Ready-to-post social content
+├── seeds/                 # Seed files for simulations
+│   ├── polymarket-12-markets.txt
+│   └── eurojackpot.txt
+└── mirofish/              # Complete MiroFish engine (pre-configured)
+    ├── .env.example       # API key template
+    ├── backend/           # Python backend (FastAPI)
+    ├── frontend/          # React frontend (Vite)
+    ├── package.json       # npm scripts (setup, dev, build)
+    ├── Dockerfile         # Docker support
+    └── docker-compose.yml
+```
 
 ## Trade
 
