@@ -187,6 +187,81 @@ docker compose up -d
 # Frontend: localhost:3000 | Backend: localhost:5001
 ```
 
+## Scraping Your Own Seed Data
+
+The engine needs real-world data to simulate. Here's how we scrape it.
+
+### Polymarket (API — no scraping needed)
+
+Polymarket has a public API. No auth required:
+
+```bash
+# Get all active markets
+curl "https://gamma-api.polymarket.com/markets?closed=false&limit=50" | jq '.[] | {question, outcomePrices, volume}'
+
+# Get a specific event
+curl "https://gamma-api.polymarket.com/events?slug=us-x-iran-ceasefire-by" | jq '.'
+```
+
+Structure the output as a seed file — see `seeds/polymarket-12-markets.txt` for the format.
+
+### Betting Odds (Cloudflare Browser Rendering)
+
+For JavaScript-heavy sites (Svenska Spel, Kambi, etc.), we use Cloudflare's free browser rendering API:
+
+```bash
+# Set up Cloudflare (free tier, 100 renders/day)
+# 1. Sign up at dash.cloudflare.com
+# 2. Add CF_ACCOUNT_ID and CF_API_TOKEN to .env
+```
+
+The scraper is built-in at `mirofish/backend/app/utils/scraper.py`:
+
+```python
+from app.utils.scraper import render_page, html_to_text, scrape_svenskaspel_odds
+
+# Render any JS-heavy page
+html = render_page("https://example.com/odds-page")
+text = html_to_text(html)
+
+# Or use the Svenska Spel parser directly
+odds = scrape_svenskaspel_odds("https://www.svenskaspel.se/oddset/match/...")
+# Returns: {"match": "Team A - Team B", "markets": {"1x2": {...}, "over_under": {...}}}
+```
+
+### Kambi API (Direct JSON)
+
+For bookmakers using Kambi (Unibet, 888sport, etc.):
+
+```bash
+# Get all bet offers for a match
+curl "https://eu-offering-api.kambicdn.com/offering/v2018/ub/betoffer/event/YOUR_EVENT_ID.json" | jq '.'
+```
+
+### Creating a Seed File
+
+A seed file is just a structured text document. The engine parses it into a knowledge graph. Format:
+
+```
+# Title — what you're predicting
+
+## Context
+Background information, current odds, recent news...
+
+## Key Data Points
+- Data point 1 with source
+- Data point 2 with source
+
+## Expert Perspectives for Simulation
+### The [Persona Name]
+"I think X because Y..."
+
+## Simulation Objective
+What should the agents debate? What's the prediction target?
+```
+
+The more structured data you provide, the better the simulation. See `seeds/` for real examples.
+
 ## Seed Files
 
 | File | Description |
