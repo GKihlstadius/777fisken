@@ -85,9 +85,28 @@ The result: emergent collective intelligence that catches edge cases single mode
 
 > "The best collective predictions come from diverse, independent thinkers who aggregate information differently." — Wisdom of Crowds, applied to AI.
 
+## Our Stack & Costs
+
+This isn't a theoretical project — it's running in production. Here's exactly what we use and what it costs:
+
+| Component | Service | Model | Cost |
+|-----------|---------|-------|------|
+| **Primary LLM** | [DeepSeek](https://platform.deepseek.com/) | `deepseek-chat` (V3) | ~$0.01/simulation run |
+| **Report LLM** | DeepSeek | `deepseek-chat` | Same key, same cost |
+| **Fallback LLM** | [Groq](https://console.groq.com/) | `llama-4-scout-17b-16e-instruct` | Free |
+| **Memory Graph** | [Zep Cloud](https://app.getzep.com/) | — | Free tier |
+| **Web Scraping** | Cloudflare Browser Rendering | — | Free tier |
+
+**Total cost per full simulation: ~$0.01-0.05.** That's not a typo. DeepSeek V3 delivers frontier-quality inference at 1/100th the cost of GPT-4. A full 12-market analysis costs less than a dollar.
+
+We chose DeepSeek over Groq/OpenRouter as primary because:
+- No rate limits (Groq's free tier throttles after ~30 requests/min)
+- Consistent quality across long simulation runs (1000+ agent interactions)
+- $2 of API credits lasts weeks of daily simulations
+
 ## Run Your Own Simulations
 
-This repo includes a **complete, pre-configured MiroFish fork** — no need to clone separately. Everything runs on free API tiers.
+This repo includes a **complete, pre-configured MiroFish fork** — no need to clone separately.
 
 ### Prerequisites
 
@@ -103,7 +122,7 @@ This repo includes a **complete, pre-configured MiroFish fork** — no need to c
 git clone https://github.com/GKihlstadius/777fisken.git
 cd 777fisken/mirofish
 
-# Set up your API keys (all free)
+# Set up your API keys
 cp .env.example .env
 ```
 
@@ -111,22 +130,33 @@ Edit `.env` with your keys:
 
 | Service | Cost | Sign up |
 |---------|------|---------|
-| **Groq** (Primary LLM) | Free | [console.groq.com](https://console.groq.com/) |
-| **OpenRouter** (Fallback LLM) | Free tier | [openrouter.ai](https://openrouter.ai/) |
+| **DeepSeek** (Primary LLM) | ~$0.01/run | [platform.deepseek.com](https://platform.deepseek.com/) |
+| **Groq** (Fallback LLM) | Free | [console.groq.com](https://console.groq.com/) |
 | **Zep Cloud** (Memory graph) | Free tier | [app.getzep.com](https://app.getzep.com/) |
 
 ```env
 # .env — fill in your keys
-PRIMARY_LLM_API_KEY=gsk_your_groq_key
-PRIMARY_LLM_BASE_URL=https://api.groq.com/openai/v1
-PRIMARY_LLM_MODEL=llama-3.3-70b-versatile
 
-FALLBACK_LLM_API_KEY=sk-or-your_openrouter_key
-FALLBACK_LLM_BASE_URL=https://openrouter.ai/api/v1
-FALLBACK_LLM_MODEL=meta-llama/llama-3.3-70b-instruct:free
+# Primary LLM — DeepSeek V3 (recommended: cheap + no rate limits)
+PRIMARY_LLM_API_KEY=sk-your_deepseek_key
+PRIMARY_LLM_BASE_URL=https://api.deepseek.com/v1
+PRIMARY_LLM_MODEL=deepseek-chat
 
+# Report generation — same DeepSeek key works
+REPORT_LLM_API_KEY=sk-your_deepseek_key
+REPORT_LLM_BASE_URL=https://api.deepseek.com/v1
+REPORT_LLM_MODEL=deepseek-chat
+
+# Fallback LLM — Groq (free, kicks in if DeepSeek is down)
+FALLBACK_LLM_API_KEY=gsk_your_groq_key
+FALLBACK_LLM_BASE_URL=https://api.groq.com/openai/v1
+FALLBACK_LLM_MODEL=meta-llama/llama-4-scout-17b-16e-instruct
+
+# Memory graph
 ZEP_API_KEY=your_zep_api_key
 ```
+
+> **Budget option:** You can run entirely free by using Groq as primary and OpenRouter as fallback. But you'll hit rate limits on large simulations. DeepSeek at $0.01/run is worth it.
 
 ### Step 2: Install & Run
 
