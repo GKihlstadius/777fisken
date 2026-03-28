@@ -228,6 +228,43 @@ We'll publish simulation results vs. actual outcomes as markets resolve. Transpa
 |--------|-----------|-------------|--------|-------|
 | *Results will be added as markets resolve* | | | | |
 
+## Built With
+
+This project stands on the shoulders of giants:
+
+| Project | What it does | Why we use it |
+|---------|-------------|---------------|
+| [**MiroFish**](https://github.com/666ghj/MiroFish) | Multi-agent swarm intelligence engine | The core simulation engine — 1000+ agents debating outcomes |
+| [**OASIS**](https://github.com/camel-ai/oasis) by CAMEL-AI | Open Agent Social Interaction Simulations | Powers MiroFish's dual-platform social simulation |
+| [**DeepSeek V3**](https://platform.deepseek.com/) | Frontier LLM at $0.01/run | Primary inference — makes large-scale swarm simulation affordable |
+| [**Groq**](https://groq.com/) + Llama 4 Scout | Ultra-fast free inference | Fallback LLM — zero-cost safety net |
+| [**Zep**](https://www.getzep.com/) | Memory graph for AI agents | Agent long-term memory and belief tracking |
+| [**Cloudflare Browser Rendering**](https://developers.cloudflare.com/browser-rendering/) | Serverless browser | Scraping JS-heavy odds pages |
+| [**Polymarket**](https://polymarket.com/?r=777Dalahezt) | Prediction market platform | Where the fish puts its money where its mouth is |
+| [**Claude Code**](https://claude.ai/claude-code) | AI development agent | Built, deployed, and automated this entire project |
+
+Special thanks to the **MiroFish team** (backed by [Shanda Group](https://www.shanda.com/)) for open-sourcing a genuine swarm intelligence engine, and to **DeepSeek** for making frontier AI inference accessible at fractions of a cent.
+
+## Trade on Polymarket
+
+If you find the analysis useful, trade these markets yourself:
+
+<div align="center">
+
+### **[polymarket.com/?r=777Dalahezt](https://polymarket.com/?r=777Dalahezt)**
+
+*Create an account, explore the markets, and put your predictions to the test.*
+
+</div>
+
+## Performance Tracking
+
+We publish simulation results vs. actual outcomes as markets resolve. Transparency is the point.
+
+| Market | Fish Said | Market Said | Actual | Edge? |
+|--------|-----------|-------------|--------|-------|
+| *Results will be added as markets resolve* | | | | |
+
 ## License
 
 MIT — use it, fork it, run the fish.
@@ -238,6 +275,6 @@ MIT — use it, fork it, run the fish.
 
 *The fish doesn't predict the future. It simulates thousands of possible futures and counts which ones survive.*
 
-**[MiroFish Engine](https://github.com/666ghj/MiroFish)** | **[Trade on Polymarket](https://polymarket.com/?r=777Dalahezt)**
+**[MiroFish Engine](https://github.com/666ghj/MiroFish)** | **[Trade on Polymarket](https://polymarket.com/?r=777Dalahezt)** | **[DeepSeek](https://platform.deepseek.com/)**
 
 </div>
