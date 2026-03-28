@@ -11,7 +11,7 @@ from typing import Optional, Dict, Any
 
 logger = logging.getLogger(__name__)
 
-CF_ACCOUNT_ID = os.environ.get("CF_ACCOUNT_ID", "857d9ff721e3c914118e4eb3e0a03832")
+CF_ACCOUNT_ID = os.environ.get("CF_ACCOUNT_ID", "")
 CF_API_TOKEN = os.environ.get("CF_API_TOKEN", "")
 CF_RENDER_URL = f"https://api.cloudflare.com/client/v4/accounts/{CF_ACCOUNT_ID}/browser-rendering/content"
 
